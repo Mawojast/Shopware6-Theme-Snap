@@ -1,6 +1,6 @@
 {
   "name": "snap/theme",
-  "description": "Snap – custom Shopware 6 storefront theme",
+  "description": "Snap - custom Shopware 6 storefront theme",
   "version": "1.0.0",
   "type": "shopware-platform-plugin",
   "license": "MIT",
@@ -19,8 +19,8 @@
       "en-GB": "Snap Theme"
     },
     "description": {
-      "de-DE": "Snap – individuelles Storefront-Theme",
-      "en-GB": "Snap – custom storefront theme"
+      "de-DE": "Snap - individuelles Storefront-Theme",
+      "en-GB": "Snap - custom storefront theme"
     }
   }
 }

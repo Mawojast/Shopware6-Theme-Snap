@@ -9,7 +9,7 @@
   "style": [
     "app/storefront/src/scss/overrides.scss",
     "@Storefront",
-    "app/storefront/src/scss/base.scss"
+    "app/storefront/src/scss/base/base.scss"
   ],
   "script": [
     "@Storefront",
@@ -18,5 +18,37 @@
   "asset": [
     "@Storefront",
     "app/storefront/src/assets"
-  ]
+  ],
+  "config": {
+      "tabs": {
+        "productBox": {
+          "label": {
+            "en-GB": "Product Box",
+            "de-DE": "Produkt Box"
+          }
+        }
+      },
+      "blocks": {
+        "productBoxAppearance": {
+          "label": {
+            "en-GB": "Appearance",
+            "de-DE": "Darstellung"
+          }
+        }
+      },
+      "fields": {
+        "product-box-border-color": {
+          "label": {
+            "en-GB": "Border color",
+            "de-DE": "Rahmenfarbe"
+          },
+          "type": "color",
+          "value": "#dddddd",
+          "editable": true,
+          "tab": "productBox",
+          "block": "productBoxAppearance",
+          "order": 100
+        }
+      }
+   }
 }
