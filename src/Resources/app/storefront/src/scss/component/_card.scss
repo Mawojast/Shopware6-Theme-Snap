@@ -1,4 +1,9 @@
-// Border color of the product box
 .product-box {
-    border: 1px solid $product-box-border-color;
+    // Switch border appereance
+    @if $product-box-border-enabled == 1 {
+        // Border color of the product box
+        border: 1px solid $product-box-border-color;
+    } @else {
+        border: none;
+    }
 }

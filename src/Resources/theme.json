@@ -9,7 +9,7 @@
   "style": [
     "app/storefront/src/scss/overrides.scss",
     "@Storefront",
-    "app/storefront/src/scss/base/base.scss"
+    "app/storefront/src/scss/base.scss"
   ],
   "script": [
     "@Storefront",
@@ -37,6 +37,17 @@
         }
       },
       "fields": {
+        "product-box-border-enabled": {
+          "label": {
+            "en-GB": "Show border",
+            "de-DE": "Rahmen anzeigen"
+          },
+          "type": "switch",
+          "value": true,
+          "editable": true,
+          "tab": "productBox",
+          "block": "productBoxAppearance"
+        },
         "product-box-border-color": {
           "label": {
             "en-GB": "Border color",
