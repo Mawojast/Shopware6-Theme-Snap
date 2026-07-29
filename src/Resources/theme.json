@@ -21,7 +21,7 @@
   ],
   "config": {
       "tabs": {
-        "productBox": {
+        "tabProductBox": {
           "label": {
             "en-GB": "Product Box",
             "de-DE": "Produkt Box"
@@ -29,15 +29,23 @@
         }
       },
       "blocks": {
-        "productBoxAppearance": {
+        "blockProductBoxBorder": {
           "label": {
-            "en-GB": "Appearance",
-            "de-DE": "Darstellung"
+            "en-GB": "Border",
+            "de-DE": "Rahmen"
+          }
+        }
+      },
+      "sections": {
+        "section": {
+          "label": {
+            "en-GB": "Basic configuration",
+            "de-DE": "Basiskonfiguration"
           }
         }
       },
       "fields": {
-        "product-box-border-enabled": {
+        "tsp-product-box-border-enabled": {
           "label": {
             "en-GB": "Show border",
             "de-DE": "Rahmen anzeigen"
@@ -45,20 +53,53 @@
           "type": "switch",
           "value": true,
           "editable": true,
-          "tab": "productBox",
-          "block": "productBoxAppearance"
+          "tab": "tabProductBox",
+          "block": "blockProductBoxBorder"
         },
-        "product-box-border-color": {
+        "tsp-product-box-border-color": {
           "label": {
-            "en-GB": "Border color",
-            "de-DE": "Rahmenfarbe"
+            "en-GB": "Color",
+            "de-DE": "Farbe"
           },
           "type": "color",
           "value": "#dddddd",
           "editable": true,
-          "tab": "productBox",
-          "block": "productBoxAppearance",
+          "tab": "tabProductBox",
+          "block": "blockProductBoxBorder",
           "order": 100
+        },
+        "tsp-product-box-border-radius": {
+          "label": {
+            "en-GB": "Border radius",
+            "de-DE": "Rundung"
+          },
+          "type": "text",
+          "value": "0%",
+          "custom": {
+            "options": [
+              {
+                "value": "0%"
+              },
+              {
+                "value": "2%"
+              },
+              {
+                "value": "4%"
+              },
+              {
+                "value": "6%"
+              },
+              {
+                "value": "8%"
+              },
+              {
+                "value": "10%"
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxBorder"
         }
       }
    }

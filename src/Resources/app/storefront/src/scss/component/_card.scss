@@ -1,8 +1,11 @@
 .product-box {
     // Switch border appereance
-    @if $product-box-border-enabled == 1 {
+    @if $tsp-product-box-border-enabled == 1 {
         // Border color of the product box
-        border: 1px solid $product-box-border-color;
+        border: 1px solid $tsp-product-box-border-color;
+
+        // Border radius from theme config
+        border-radius: $tsp-product-box-border-radius;
     } @else {
         border: none;
     }
