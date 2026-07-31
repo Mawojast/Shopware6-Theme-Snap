@@ -42,6 +42,12 @@
             "en-GB": "Basic configuration",
             "de-DE": "Basiskonfiguration"
           }
+        },
+        "sectionProductBoxBorderHover": {
+          "label": {
+            "en-GB": "Hover Effect",
+            "de-DE": "Hover Effekt"
+          }
         }
       },
       "fields": {
@@ -76,6 +82,7 @@
           "type": "text",
           "value": "0%",
           "custom": {
+            "componentName": "sw-single-select",
             "options": [
               {
                 "value": "0%"
@@ -100,6 +107,31 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxBorder"
+        },
+        "tsp-product-box-border-hover-enabled": {
+          "label": {
+            "en-GB": "Enable Hover Effect",
+            "de-DE": "Hover anzeigen"
+          },
+          "type": "switch",
+          "value": false,
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxBorder",
+          "section": "sectionProductBoxBorderHover"
+        },
+        "tsp-product-box-border-hover-color": {
+          "label": {
+            "en-GB": "Color",
+            "de-DE": "Farbe"
+          },
+          "type": "color",
+          "value": "#dddddd",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxBorder",
+          "section": "sectionProductBoxBorderHover",
+          "order": 100
         }
       }
    }

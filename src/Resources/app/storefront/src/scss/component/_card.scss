@@ -9,4 +9,12 @@
     } @else {
         border: none;
     }
+
+    // Switch border hover appereance
+    @if $tsp-product-box-border-hover-enabled == 1 {
+        // Border hover color
+        &:hover {
+            border: 1px solid $tsp-product-box-border-hover-color;
+        }
+    }
 }
