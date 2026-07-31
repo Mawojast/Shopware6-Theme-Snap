@@ -14,7 +14,11 @@
     @if $tsp-product-box-border-hover-enabled == 1 {
         // Border hover color
         &:hover {
+            // Border hover color of the product box
             border: 1px solid $tsp-product-box-border-hover-color;
+
+            // Border hover radius from theme config
+            border-radius: $tsp-product-box-border-radius;
         }
     }
 }
