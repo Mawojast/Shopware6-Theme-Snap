@@ -40,6 +40,12 @@
             "en-GB": "Title",
             "de-DE": "Titel"
           }
+        },
+        "blockProductBoxCheapestPrice": {
+          "label": {
+            "en-GB": "Price",
+            "de-DE": "Preis"
+          }
         }
       },
       "sections": {
@@ -164,6 +170,17 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxTitle"
+        },
+        "tsp-product-box-show-cheapest-price": {
+          "label": {
+            "en-GB": "Show the cheapest price of variants",
+            "de-DE": "Niedrigster Preis der Produkt-Varianten anzeigen"
+          },
+          "type": "switch",
+          "value": false,
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxCheapestPrice"
         }
       }
    }

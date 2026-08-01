@@ -1,0 +1,18 @@
+{% sw_extends '@Storefront/storefront/component/product/card/price-unit.html.twig' %}
+{#
+    Cheapest price display for variants. Used when the product is a single variant that is directly buy-able from the listing.
+    Example: "Variants from $120.00"
+#}
+{% block component_product_box_cheapest_price %}
+
+    {# Show optionally the cheapest price of variants #}
+    {% if theme_config('tsp-product-box-show-cheapest-price') %}
+        <div class="product-cheapest-price{% if isListPrice and isRegulationPrice and not displayFrom and not displayFromVariants %} with-list-price{% endif %}{% if isRegulationPrice and not displayFrom and displayFromVariants %} with-regulation-price{% endif %}{% if displayFrom and isRegulationPrice %} with-from-price{% endif %}">
+            {% if cheapest.unitPrice != real.unitPrice and cheapest.variantId != product.id %}
+                {{ 'listing.cheapestPriceLabel'|trans|sw_sanitize }}<span class="product-cheapest-price-price"> {{ cheapest.unitPrice|currency }}</span>
+            {% endif %}
+        </div>
+    {% endif %}
+{% endblock %}
+
+                
