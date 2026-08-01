@@ -34,6 +34,12 @@
             "en-GB": "Border",
             "de-DE": "Rahmen"
           }
+        },
+        "blockProductBoxTitle": {
+          "label": {
+            "en-GB": "Title",
+            "de-DE": "Titel"
+          }
         }
       },
       "sections": {
@@ -147,6 +153,17 @@
           "tab": "tabProductBox",
           "block": "blockProductBoxBorder",
           "section": "sectionProductBoxBorderMore"
+        },
+        "tsp-product-box-title-color": {
+          "label": {
+            "en-GB": "Color",
+            "de-DE": "Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxTitle"
         }
       }
    }

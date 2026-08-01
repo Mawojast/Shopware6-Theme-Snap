@@ -1,4 +1,8 @@
 .product-box {
+
+    .product-name {
+        color: $tsp-product-box-title-color;
+    }
     // Switch border appereance
     @if $tsp-product-box-border-enabled == 1 {
         // Border color of the product box
