@@ -41,10 +41,10 @@
             "de-DE": "Titel"
           }
         },
-        "blockProductBoxCheapestPrice": {
+        "blockProductBoxPrice": {
           "label": {
-            "en-GB": "Price",
-            "de-DE": "Preis"
+            "en-GB": "Prices",
+            "de-DE": "Preise"
           }
         }
       },
@@ -171,6 +171,18 @@
           "tab": "tabProductBox",
           "block": "blockProductBoxTitle"
         },
+        "tsp-product-box-price-color": {
+          "label": {
+            "en-GB": "Color",
+            "de-DE": "Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxPrice",
+          "order": 100
+        },
         "tsp-product-box-show-cheapest-price": {
           "label": {
             "en-GB": "Show the cheapest price of variants",
@@ -180,7 +192,7 @@
           "value": false,
           "editable": true,
           "tab": "tabProductBox",
-          "block": "blockProductBoxCheapestPrice"
+          "block": "blockProductBoxPrice"
         }
       }
    }

@@ -3,6 +3,12 @@
     .product-name {
         color: $tsp-product-box-title-color;
     }
+
+    // Change product price color appearence
+    .product-price {
+        color: $tsp-product-box-price-color;
+    }
+
     // Switch border appereance
     @if $tsp-product-box-border-enabled == 1 {
         // Border color of the product box
