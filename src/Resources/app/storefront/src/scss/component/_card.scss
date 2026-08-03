@@ -9,6 +9,11 @@
         color: $tsp-product-box-price-color;
     }
 
+    // Change cheapest product variants price hint color
+    .product-cheapest-price {
+        color: $tsp-product-box-variants-from-color;
+    }
+
     // Switch border appereance
     @if $tsp-product-box-border-enabled == 1 {
         // Border color of the product box

@@ -72,6 +72,12 @@
             "en-GB": "More",
             "de-DE": "Sonstiges"
           }
+        },
+        "sectionProductBoxVariantsFrom": {
+          "label": {
+            "en-GB": "Varaiants from price hint",
+            "de-DE": "Varianten ab Preis Hinweis"
+          }
         }
       },
       "fields": {
@@ -192,7 +198,21 @@
           "value": false,
           "editable": true,
           "tab": "tabProductBox",
-          "block": "blockProductBoxPrice"
+          "block": "blockProductBoxPrice",
+          "section": "sectionProductBoxVariantsFrom"
+        },
+        "tsp-product-box-variants-from-color": {
+          "label": {
+            "en-GB": "Color",
+            "de-DE": "Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxPrice",
+          "section": "sectionProductBoxVariantsFrom",
+          "order": 100
         }
       }
    }
