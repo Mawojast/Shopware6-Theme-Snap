@@ -1,5 +1,6 @@
 .product-box {
 
+    // Product name color 
     .product-name {
         color: $tsp-product-box-title-color;
     }
@@ -35,5 +36,10 @@
             // Border hover radius from theme config
             border-radius: $tsp-product-box-border-radius;
         }
+    }
+
+    .btn-buy {
+        background-color: $tsp-product-box-add-to-shopping-card-button-background-color;
+        color: $tsp-product-box-add-to-shopping-card-button-font-color;
     }
 }

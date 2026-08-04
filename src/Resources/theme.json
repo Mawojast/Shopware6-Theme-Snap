@@ -46,6 +46,12 @@
             "en-GB": "Prices",
             "de-DE": "Preise"
           }
+        },
+        "blockProductBoxAddToShoppingCardButton": {
+          "label": {
+            "en-GB": "Add To Shopping Card Button",
+            "de-DE": "In den Warenkorb Button"
+          }
         }
       },
       "sections": {
@@ -212,6 +218,30 @@
           "tab": "tabProductBox",
           "block": "blockProductBoxPrice",
           "section": "sectionProductBoxVariantsFrom",
+          "order": 100
+        },
+        "tsp-product-box-add-to-shopping-card-button-background-color": {
+          "label": {
+            "en-GB": "Background Color",
+            "de-DE": "Hintergrundfarbe"
+          },
+          "type": "color",
+          "value": "#0042a0",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxAddToShoppingCardButton",
+          "order": 100
+        },
+        "tsp-product-box-add-to-shopping-card-button-font-color": {
+          "label": {
+            "en-GB": "Font Color",
+            "de-DE": "Schriftfarbe"
+          },
+          "type": "color",
+          "value": "#ffffff",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxAddToShoppingCardButton",
           "order": 100
         }
       }
