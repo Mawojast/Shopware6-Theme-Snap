@@ -38,8 +38,10 @@
         }
     }
 
+    // Add to shopping card button
     .btn-buy {
         background-color: $tsp-product-box-add-to-shopping-card-button-background-color;
         color: $tsp-product-box-add-to-shopping-card-button-font-color;
+        border-radius: $tsp-product-box-add-to-shopping-card-border-radius;
     }
 }
