@@ -307,6 +307,61 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxAddToShoppingCardButton"
+        },
+        "tsp-product-box-add-to-shopping-card-height": {
+          "label": {
+            "de-DE": "Button Höhe",
+            "en-GB": "Button height"
+          },
+          "type": "text",
+          "value": "50px",
+          "custom": {
+              "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": "40px"
+              },
+              {
+                "value": "45px"
+              },
+              {
+                "value": "50px"
+              },
+              {
+                "value": "55px"
+              },
+              {
+                "value": "60px"
+              },
+              {
+                "value": "65px"
+              },
+              { 
+                "value": "70px"
+              },
+              { 
+                "value": "75px"
+              },
+              { 
+                "value": "80px"
+              },
+              {
+                "value": "85px"
+              },
+              {
+                "value": "90px"
+              },
+              {
+                "value": "95px"
+              },
+              {
+                "value": "100px"
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxAddToShoppingCardButton"
         }
       }
    }
