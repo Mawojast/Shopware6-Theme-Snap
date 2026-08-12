@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+     width="128" 
+     height="128" 
+     viewBox="0 0 128 128">
+  
+  <!-- Verlauf für Instagram-Farben -->
+  <defs>
+    <linearGradient id="instagramGradient128" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F58529;stop-opacity:1"/>
+      <stop offset="30%" style="stop-color:#FEDA77;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#DD2A7B;stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#8134AF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#515BD4;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Äußeres Quadrat (Rahmen) -->
+  <rect x="8" y="8" 
+        width="112" 
+        height="112" 
+        rx="28" 
+        ry="28" 
+        fill="none" 
+        stroke="url(#instagramGradient128)" 
+        stroke-width="6"/>
+  
+  <!-- Inneres Quadrat -->
+  <rect x="26" y="26" 
+        width="76" 
+        height="76" 
+        rx="20" 
+        ry="20" 
+        fill="url(#instagramGradient128)"/>
+  
+  <!-- Kamera-Icon (Kreis + Punkt) -->
+  <circle cx="64" cy="64" r="24" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+  <circle cx="64" cy="64" r="8" fill="#FFFFFF"/>
+  
+  <!-- Kamera-Blitz (Punkt oben rechts) -->
+  <circle cx="86" cy="42" r="4" fill="#FFFFFF"/>
+  
+</svg>

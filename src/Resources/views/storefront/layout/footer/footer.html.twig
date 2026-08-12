@@ -1,0 +1,75 @@
+{% sw_extends '@Storefront/storefront/layout/footer/footer.html.twig' %}
+
+{#----------Theme Config Variables----------#}
+{% set tiktokFooterIconSwitch = theme_config('tsp-footer-social-tiktok-switch') %}
+{% set tiktokFooterIconUrl = theme_config('tsp-footer-social-tiktok-url') %}
+{% set instagramFooterIconSwitch = theme_config('tsp-footer-social-instagram-switch') %}
+{% set instagramFooterIconUrl = theme_config('tsp-footer-social-instagram-url') %}
+{% set discordFooterIconSwitch = theme_config('tsp-footer-social-discord-switch') %}
+{% set discordFooterIconUrl = theme_config('tsp-footer-social-discord-url') %}
+
+        {% block layout_footer_navigation %}
+            <div class="text-center">
+                {# TikTok Icon #}
+                {% if tiktokFooterIconSwitch %}
+                        <div class="d-inline-flex p-2">
+                    <a href="{{ tiktokFooterIconUrl }}"
+                        target="_blank" 
+                        rel="noopener noreferrer nofollow"
+                        aria-label="TikTok"
+                        title="TikTok">
+                            {% sw_icon 'tsp-icon-tiktok' 
+                                style {
+                                    'pack': 'snapFooterIconSocial',
+                                    'namespace': 'Snap',
+                                    'size': 'lg'
+                                } 
+                            %}
+                    </a>
+                        </div>
+                {% endif %}
+
+                {# Instagram Icon #}
+                {% if instagramFooterIconSwitch %}
+                        <div class="d-inline-flex p-2">
+                    <a href="{{ instagramFooterIconUrl }}" 
+                        target="_blank" 
+                        rel="noopener noreferrer nofollow"
+                        aria-label="Instagram"
+                        title="Instagram">
+                            {% sw_icon 'tsp-icon-instagram' 
+                                style {
+                                    'pack': 'snapFooterIconSocial',
+                                    'namespace': 'Snap',
+                                    'size': 'lg'
+                                } 
+                            %}
+                    </a>
+                        </div>
+                {% endif %}
+
+                {# discord Icon #}
+                {% if discordFooterIconSwitch %}
+                        <div class="d-inline-flex p-2">
+                            <a href="{{ discordFooterIconUrl }}"
+                                target="_blank" 
+                                rel="noopener noreferrer nofollow"
+                                aria-label="Discord"
+                                title="Discord">
+                                {% sw_icon 'tsp-icon-discord' 
+                                    style {
+                                        'pack': 'snapFooterIconSocial',
+                                        'namespace': 'Snap',
+                                        'size': 'lg'
+                                    } 
+                                %}
+                            </a>
+                        </div>
+                {% endif %}
+
+
+
+            </div>
+            {{ parent() }}
+        {% endblock %}
+                

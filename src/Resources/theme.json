@@ -19,12 +19,21 @@
     "@Storefront",
     "app/storefront/src/assets"
   ],
+  "iconSets": {
+    "snapFooterIconSocial": "storefront/assets/icon/social"
+  },
   "config": {
       "tabs": {
         "tabProductBox": {
           "label": {
             "en-GB": "Product Box",
             "de-DE": "Produkt Box"
+          }
+        },
+        "tabFooter": {
+          "label": {
+            "en-GB": "Footer",
+            "de-DE": "Fußzeile"
           }
         }
       },
@@ -51,6 +60,12 @@
           "label": {
             "en-GB": "Add To Shopping Card Button",
             "de-DE": "In den Warenkorb Button"
+          }
+        },
+        "blockFooterSocialMedia": {
+          "label": {
+            "en-GB": "Social Media",
+            "de-DE": "Soziale Medien"
           }
         }
       },
@@ -83,6 +98,24 @@
           "label": {
             "en-GB": "Varaiants from price hint",
             "de-DE": "Varianten ab Preis Hinweis"
+          }
+        },
+        "sectionFooterSocialTikTok": {
+          "label": {
+            "en-GB": "TikTok",
+            "de-DE": "TikTok"
+          }
+        },
+        "sectionFooterSocialInstagram": {
+          "label": {
+            "en-GB": "Instagram",
+            "de-DE": "Instagram"
+          }
+        },
+        "sectionFooterSocialDiscord": {
+          "label": {
+            "en-GB": "Discord",
+            "de-DE": "Discord"
           }
         }
       },
@@ -362,6 +395,78 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxAddToShoppingCardButton"
+        },
+        "tsp-footer-social-tiktok-switch": {
+          "label": {
+            "en-GB": "Show",
+            "de-DE": "Anzeigen"
+          },
+          "type": "switch",
+          "value": false,
+          "editable": true,
+          "tab": "tabFooter",
+          "block": "blockFooterSocialMedia",
+          "section": "sectionFooterSocialTikTok"
+        },
+        "tsp-footer-social-tiktok-url": {
+          "label": {
+            "en-GB": "Url",
+            "de-DE": "Url"
+          },
+          "type": "url",
+          "value": "",
+          "editable": true,
+          "tab": "tabFooter",
+          "block": "blockFooterSocialMedia",
+          "section": "sectionFooterSocialTikTok"
+        },
+        "tsp-footer-social-instagram-switch": {
+          "label": {
+            "en-GB": "Show",
+            "de-DE": "Anzeigen"
+          },
+          "type": "switch",
+          "value": false,
+          "editable": true,
+          "tab": "tabFooter",
+          "block": "blockFooterSocialMedia",
+          "section": "sectionFooterSocialInstagram"
+        },
+        "tsp-footer-social-instagram-url": {
+          "label": {
+            "en-GB": "Url",
+            "de-DE": "Url"
+          },
+          "type": "url",
+          "value": "",
+          "editable": true,
+          "tab": "tabFooter",
+          "block": "blockFooterSocialMedia",
+          "section": "sectionFooterSocialInstagram"
+        },
+        "tsp-footer-social-discord-switch": {
+          "label": {
+            "en-GB": "Show",
+            "de-DE": "Anzeigen"
+          },
+          "type": "switch",
+          "value": false,
+          "editable": true,
+          "tab": "tabFooter",
+          "block": "blockFooterSocialMedia",
+          "section": "sectionFooterSocialDiscord"
+        },
+        "tsp-footer-social-discord-url": {
+          "label": {
+            "en-GB": "Url",
+            "de-DE": "Url"
+          },
+          "type": "url",
+          "value": "",
+          "editable": true,
+          "tab": "tabFooter",
+          "block": "blockFooterSocialMedia",
+          "section": "sectionFooterSocialDiscord"
         }
       }
    }
