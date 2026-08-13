@@ -405,10 +405,22 @@
         "tsp-product-box-added-to-wishlist-button-color": {
           "label": {
             "en-GB": "Added To Wishlist Button Color",
-            "de-DE": "Zu Wunschzettel hinzugefügt Buttonfarbe"
+            "de-DE": "Zu Wunschzettel hinzugefügt Button-Farbe"
           },
           "type": "color",
           "value": "#ffffff",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxWishlist",
+          "order": 100
+        },
+        "tsp-product-box-added-to-wishlist-icon-color": {
+          "label": {
+            "en-GB": "Added To Wishlist Button Color",
+            "de-DE": "Zu Wunschzettel hinzugefügt Icon-Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxWishlist",
