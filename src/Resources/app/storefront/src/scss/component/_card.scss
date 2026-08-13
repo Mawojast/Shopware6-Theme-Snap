@@ -45,4 +45,9 @@
         border-radius: $tsp-product-box-add-to-shopping-card-border-radius;
         height: $tsp-product-box-add-to-shopping-card-height;
     }
+
+    // Added to wishlist button color
+    .product-wishlist-added {
+        background-color: $tsp-product-box-added-to-wishlist-button-color;
+    }
 }

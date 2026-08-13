@@ -67,6 +67,12 @@
             "en-GB": "Social Media",
             "de-DE": "Soziale Medien"
           }
+        },
+        "blockProductBoxWishlist": {
+          "label": {
+            "en-GB": "Wishlist",
+            "de-DE": "Wunschzettel"
+          }
         }
       },
       "sections": {
@@ -395,6 +401,18 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxAddToShoppingCardButton"
+        },
+        "tsp-product-box-added-to-wishlist-button-color": {
+          "label": {
+            "en-GB": "Added To Wishlist Button Color",
+            "de-DE": "Zu Wunschzettel hinzugefügt Buttonfarbe"
+          },
+          "type": "color",
+          "value": "#ffffff",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxWishlist",
+          "order": 100
         },
         "tsp-footer-social-tiktok-switch": {
           "label": {
