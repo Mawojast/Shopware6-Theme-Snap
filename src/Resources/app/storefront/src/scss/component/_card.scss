@@ -55,4 +55,14 @@
     .icon-wishlist-added {
         color: $tsp-product-box-added-to-wishlist-icon-color;
     }
+
+    // Added not added to wishlist button color
+    .product-wishlist-not-added {
+        background-color: $tsp-product-box-added-not-to-wishlist-button-color;
+    }
+
+    // Added not added to wishlist icon color
+    .icon-wishlist-not-added {
+        color: $tsp-product-box-added-not-to-wishlist-icon-color;
+    }
 }
