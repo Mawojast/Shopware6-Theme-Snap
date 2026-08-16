@@ -50,6 +50,12 @@
             "de-DE": "Titel"
           }
         },
+        "blockProductBoxDescription": {
+          "label": {
+            "en-GB": "Description",
+            "de-DE": "Beschreibung"
+          }
+        },
         "blockProductBoxPrice": {
           "label": {
             "en-GB": "Prices",
@@ -248,6 +254,17 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxTitle"
+        },
+        "tsp-product-box-description-switch": {
+          "label": {
+            "en-GB": "Show Description",
+            "de-DE": "Beschreibung anzeigen"
+          },
+          "type": "switch",
+          "value": "true",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxDescription"
         },
         "tsp-product-box-price-color": {
           "label": {
