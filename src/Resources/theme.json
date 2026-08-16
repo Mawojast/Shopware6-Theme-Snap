@@ -88,7 +88,7 @@
             "de-DE": "Allgemein"
           }
         },
-        "sectionProductBoxBorderHover": {
+        "sectionHover": {
           "label": {
             "en-GB": "Hover Effect",
             "de-DE": "Hover Effekt"
@@ -104,6 +104,18 @@
           "label": {
             "en-GB": "Varaiants from price hint",
             "de-DE": "Varianten ab Preis Hinweis"
+          }
+        },
+        "sectionProductBoxWishlistAdded": {
+          "label": {
+            "en-GB": "Added To Wishlist",
+            "de-DE": "Zum Wunschzettel hinzugefügt"
+          }
+        },
+        "sectionProductBoxWishlistNotAdded": {
+          "label": {
+            "en-GB": "Not Added To Wishlist",
+            "de-DE": "Nicht zum Wunschzettel hinzugefügt"
           }
         },
         "sectionFooterSocialTikTok": {
@@ -161,7 +173,7 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxBorder",
-          "section": "sectionProductBoxBorderHover"
+          "section": "sectionHover"
         },
         "tsp-product-box-border-hover-color": {
           "label": {
@@ -173,7 +185,7 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxBorder",
-          "section": "sectionProductBoxBorderHover",
+          "section": "sectionHover",
           "order": 100
         },
         "tsp-product-box-border-radius": {
@@ -402,52 +414,94 @@
           "tab": "tabProductBox",
           "block": "blockProductBoxAddToShoppingCardButton"
         },
-        "tsp-product-box-added-to-wishlist-button-color": {
-          "label": {
-            "en-GB": "Added To Wishlist Button Color",
-            "de-DE": "Zu Wunschzettel hinzugefügt Button-Farbe"
-          },
-          "type": "color",
-          "value": "#ffffff",
-          "editable": true,
-          "tab": "tabProductBox",
-          "block": "blockProductBoxWishlist",
-          "order": 100
-        },
-        "tsp-product-box-added-to-wishlist-icon-color": {
-          "label": {
-            "en-GB": "Added To Wishlist Button Color",
-            "de-DE": "Zu Wunschzettel hinzugefügt Icon-Farbe"
-          },
-          "type": "color",
-          "value": "#000000",
-          "editable": true,
-          "tab": "tabProductBox",
-          "block": "blockProductBoxWishlist",
-          "order": 100
-        },
         "tsp-product-box-added-not-to-wishlist-button-color": {
           "label": {
-            "en-GB": "Added Not To Wishlist Button Color",
-            "de-DE": "Zu Wunschzettel nicht hinzugefügt Button-Farbe"
+            "en-GB": "Button Color",
+            "de-DE": "Button-Farbe"
           },
           "type": "color",
           "value": "#f2f2f2",
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxWishlist",
+          "section": "sectionProductBoxWishlistNotAdded",
           "order": 100
         },
         "tsp-product-box-added-not-to-wishlist-icon-color": {
           "label": {
-            "en-GB": "Added Not To Wishlist Icon-Color",
-            "de-DE": "Zu Wunschzettel nicht hinzugefügt Icon-Farbe"
+            "en-GB": "Icon Color",
+            "de-DE": "Icon-Farbe"
           },
           "type": "color",
           "value": "#000000",
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxWishlist",
+          "section": "sectionProductBoxWishlistNotAdded",
+          "order": 100
+        },
+        "tsp-product-box-added-to-wishlist-button-color": {
+          "label": {
+            "en-GB": "Button Color",
+            "de-DE": "Button-Farbe"
+          },
+          "type": "color",
+          "value": "#ffffff",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxWishlist",
+          "section": "sectionProductBoxWishlistAdded",
+          "order": 100
+        },
+        "tsp-product-box-added-to-wishlist-icon-color": {
+          "label": {
+            "en-GB": "Icon Color",
+            "de-DE": "Icon-Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxWishlist",
+          "section": "sectionProductBoxWishlistAdded",
+          "order": 100
+        },
+        "tsp-product-box-wishlist-hover-switch": {
+          "label": {
+            "en-GB": "Activate",
+            "de-DE": "Aktivieren"
+          },
+          "type": "switch",
+          "value": false,
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxWishlist",
+          "section": "sectionHover"
+        },
+        "tsp-product-wishlist-button-color-hover": {
+          "label": {
+            "en-GB": "Button Color",
+            "de-DE": "Button-Farbe"
+          },
+          "type": "color",
+          "value": "#ffffaa",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxWishlist",
+          "section": "sectionHover",
+          "order": 100
+        },
+        "tsp-product-box-wishlist-icon-color-hover": {
+          "label": {
+            "en-GB": "Icon Color",
+            "de-DE": "Icon-Farbe"
+          },
+          "type": "color",
+          "value": "#0000aa",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxWishlist",
+          "section": "sectionHover",
           "order": 100
         },
         "tsp-footer-social-tiktok-switch": {

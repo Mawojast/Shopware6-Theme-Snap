@@ -65,4 +65,20 @@
     .icon-wishlist-not-added {
         color: $tsp-product-box-added-not-to-wishlist-icon-color;
     }
+
+    // Switch hover effect wishlist button / icon
+    @if $tsp-product-box-wishlist-hover-switch == 1 {
+        &:hover {
+
+            // Icon color
+            .icon-wishlist {
+                color: $tsp-product-box-wishlist-icon-color-hover;
+            }
+
+            // Button color
+            .product-wishlist-btn {
+                background-color: $tsp-product-wishlist-button-color-hover;
+            }
+        }
+    }
 }
