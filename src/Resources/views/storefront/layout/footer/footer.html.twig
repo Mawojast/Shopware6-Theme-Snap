@@ -7,9 +7,11 @@
 {% set instagramFooterIconUrl = theme_config('tsp-footer-social-instagram-url') %}
 {% set discordFooterIconSwitch = theme_config('tsp-footer-social-discord-switch') %}
 {% set discordFooterIconUrl = theme_config('tsp-footer-social-discord-url') %}
+{% set socialIconPosition = theme_config('tsp-footer-social-icon-position') %}
+
 
         {% block layout_footer_navigation %}
-            <div class="text-center">
+            <div class="text-{{ socialIconPosition }}">
                 {# TikTok Icon #}
                 {% if tiktokFooterIconSwitch %}
                         <div class="d-inline-flex p-2">

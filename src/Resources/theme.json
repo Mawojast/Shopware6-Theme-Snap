@@ -592,6 +592,43 @@
           "tab": "tabFooter",
           "block": "blockFooterSocialMedia",
           "section": "sectionFooterSocialDiscord"
+        },
+        "tsp-footer-social-icon-position": {
+          "label": {
+            "en-GB": "Position",
+            "de-DE": "Position"
+          },
+          "type": "text",
+          "value": "center",
+          "editable": true,
+          "custom": {
+            "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": "start",
+                "label": {
+                  "en-GB": "Left",
+                  "de-DE": "Links"
+                }
+              },
+              {
+                "value": "center",
+                "label": {
+                  "en-GB": "Center",
+                  "de-DE": "Mittig"
+                }
+              },
+              {
+                "value": "end",
+                "label": {
+                  "en-GB": "Right",
+                  "de-DE": "Rechts"
+                }
+              }
+            ]
+          },
+          "tab": "tabFooter",
+          "block": "blockFooterSocialMedia"
         }
       }
    }
