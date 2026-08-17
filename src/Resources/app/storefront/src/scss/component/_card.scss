@@ -68,15 +68,9 @@
 
     // Switch hover effect wishlist button / icon
     @if $tsp-product-box-wishlist-hover-switch == 1 {
-        &:hover {
-
-            // Icon color
-            .icon-wishlist {
-                color: $tsp-product-box-wishlist-icon-color-hover;
-            }
-
-            // Button color
-            .product-wishlist-btn {
+        .icon-wishlist, .product-wishlist-btn{  
+            &:hover {
+                color: $tsp-product-box-wishlist-icon-color-hover;                          
                 background-color: $tsp-product-wishlist-button-color-hover;
             }
         }
