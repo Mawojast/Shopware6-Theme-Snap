@@ -35,6 +35,12 @@
             "en-GB": "Footer",
             "de-DE": "Fußzeile"
           }
+        },
+        "tabHeader": {
+          "label": {
+            "en-GB": "Header",
+            "de-DE": "Kopfzeile"
+          }
         }
       },
       "blocks": {
@@ -78,6 +84,12 @@
           "label": {
             "en-GB": "Wishlist",
             "de-DE": "Wunschzettel"
+          }
+        },
+        "blockHeaderSearchbar": {
+          "label": {
+            "en-GB": "Searchbar",
+            "de-DE": "Suchbar"
           }
         }
       },
@@ -629,6 +641,17 @@
           },
           "tab": "tabFooter",
           "block": "blockFooterSocialMedia"
+        },
+        "tsp-header-show-searchbar-switch": {
+          "label": {
+            "en-GB": "Show",
+            "de-DE": "Anzeigen"
+          },
+          "type": "switch",
+          "value": true,
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar"
         }
       }
    }

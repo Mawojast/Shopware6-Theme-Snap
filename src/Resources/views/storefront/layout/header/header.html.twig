@@ -1,0 +1,19 @@
+{% sw_extends '@Storefront/storefront/layout/header/header.html.twig' %}
+
+{% block layout_header_search %}
+    <div class="col-12 order-2 col-sm order-sm-1 header-search-col">
+        {# Theme config show header switch #}
+        {% if theme_config('tsp-header-show-searchbar-switch') %}
+            {{ parent() }}
+        {% endif %}
+    </div>
+{% endblock %}
+{% block layout_header_search_toggle %}
+    {# Theme config show header switch #} 
+    {% if theme_config('tsp-header-show-searchbar-switch') %}
+        {{ parent() }}
+    {% endif %}
+{% endblock %}
+
+                        
+        
