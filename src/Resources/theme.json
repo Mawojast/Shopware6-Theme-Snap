@@ -652,6 +652,39 @@
           "editable": true,
           "tab": "tabHeader",
           "block": "blockHeaderSearchbar"
+        },
+        "tsp-header-searchbar-background-color": {
+          "label": {
+            "en-GB": "Background Color",
+            "de-DE": "Hintergrund-Farbe"
+          },
+          "type": "color",
+          "value": "#ffffff",
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar"
+        },
+        "tsp-header-searchbar-text-color": {
+          "label": {
+            "en-GB": "Text Color",
+            "de-DE": "Text-Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar"
+        },
+        "tsp-header-searchbar-placeholder-color": {
+          "label": {
+            "en-GB": "Placeholder Color",
+            "de-DE": "Platzhalter-Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar"
         }
       }
    }
