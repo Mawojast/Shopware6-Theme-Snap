@@ -655,8 +655,8 @@
         },
         "tsp-header-searchbar-background-color": {
           "label": {
-            "en-GB": "Background Color",
-            "de-DE": "Hintergrund-Farbe"
+            "en-GB": "Input Background Color",
+            "de-DE": "Textfeld-Farbe"
           },
           "type": "color",
           "value": "#ffffff",
@@ -666,8 +666,8 @@
         },
         "tsp-header-searchbar-text-color": {
           "label": {
-            "en-GB": "Text Color",
-            "de-DE": "Text-Farbe"
+            "en-GB": "Text",
+            "de-DE": "Text"
           },
           "type": "color",
           "value": "#000000",
@@ -677,8 +677,30 @@
         },
         "tsp-header-searchbar-placeholder-color": {
           "label": {
-            "en-GB": "Placeholder Color",
-            "de-DE": "Platzhalter-Farbe"
+            "en-GB": "Placeholder",
+            "de-DE": "Platzhalter"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar"
+        },
+        "tsp-header-searchbar-button-color": {
+          "label": {
+            "en-GB": "Button",
+            "de-DE": "Button"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar"
+        },
+        "tsp-header-searchbar-button-icon-color": {
+          "label": {
+            "en-GB": "Button Icon",
+            "de-DE": "Button Icon"
           },
           "type": "color",
           "value": "#000000",

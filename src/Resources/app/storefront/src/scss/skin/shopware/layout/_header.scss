@@ -1,3 +1,6 @@
+/* 
+ * Search input field 
+ */
 .header-search-input {
     border-right: 0;
     background-color: $tsp-header-searchbar-background-color;
@@ -15,4 +18,60 @@
 }
 .header-search-input::placeholder{
     color: $tsp-header-searchbar-placeholder-color;
+}
+
+/*
+ * Search Button 
+ */
+.header-search-btn {
+    background-color: $tsp-header-searchbar-button-color;
+    .header-search-icon {
+        .icon {
+
+            color: $tsp-header-searchbar-button-icon-color;
+        }
+    }
+
+    &:hover {
+        background-color: $tsp-header-searchbar-button-color;
+        .icon {
+            color: $tsp-header-searchbar-button-icon-color;
+        }
+    }
+
+    &.is-loading-indicator-before .loader {
+        margin: 0;
+    }
+    
+    .loader {
+        border-color: $tsp-header-searchbar-button-icon-color;
+        border-right-color: transparent;
+        ~ .header-search-icon{
+            display: none;
+        }
+        ~ .header-close-btn {
+            display: none;
+        }
+    }
+
+    &:disabled, &.disabled {
+        background-color: $tsp-header-searchbar-button-color;
+        border-color: $tsp-header-searchbar-button-color;
+        opacity: 1;
+    }
+}
+
+.header-close-btn {
+    background-color: $tsp-header-searchbar-button-color;
+    .header-close-icon{
+        .icon {
+            color: $tsp-header-searchbar-button-icon-color;
+        }
+    }
+    &:hover {
+        background-color: $tsp-header-searchbar-button-color;
+        .icon {
+            color: $tsp-header-searchbar-button-icon-color;
+        }
+    }
 }
