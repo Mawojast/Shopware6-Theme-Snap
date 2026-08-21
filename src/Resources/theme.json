@@ -406,48 +406,27 @@
             "en-GB": "Button height"
           },
           "type": "text",
-          "value": "50px",
+          "value": "2.5rem",
           "custom": {
               "componentName": "sw-single-select",
             "options": [
               {
-                "value": "40px"
+                "value": "2.5rem"
               },
               {
-                "value": "45px"
+                "value": "3.0rem"
               },
               {
-                "value": "50px"
+                "value": "3.5rem"
               },
               {
-                "value": "55px"
+                "value": "4.0rem"
               },
               {
-                "value": "60px"
+                "value": "4.5rem"
               },
               {
-                "value": "65px"
-              },
-              { 
-                "value": "70px"
-              },
-              { 
-                "value": "75px"
-              },
-              { 
-                "value": "80px"
-              },
-              {
-                "value": "85px"
-              },
-              {
-                "value": "90px"
-              },
-              {
-                "value": "95px"
-              },
-              {
-                "value": "100px"
+                "value": "5.0rem"
               }
             ]
           },
