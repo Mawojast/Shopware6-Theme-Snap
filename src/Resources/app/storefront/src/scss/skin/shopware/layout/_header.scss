@@ -3,19 +3,21 @@
  */
 .header-search-input {
     border-right: 0;
-    background-color: $tsp-header-searchbar-background-color;
-    color: $tsp-header-searchbar-text-color;
-
+    background-color: $tsp-header-searchbar-input-background-color;
+    color: $tsp-header-searchbar-input-text-color;
+    /*border-radius: $tsp-header-searchbar-border-radius;*/
     &:focus {
-        color: $tsp-header-searchbar-text-color;
-        background-color: $tsp-header-searchbar-background-color;
+        color: $tsp-header-searchbar-input-text-color;
+        background-color: $tsp-header-searchbar-input-background-color;
         &,
         ~ .header-search-btn,
         ~ .header-close-btn {
             border-color: $primary;
         }
     }
+    
 }
+
 .header-search-input::placeholder{
     color: $tsp-header-searchbar-placeholder-color;
 }
@@ -75,3 +77,4 @@
         }
     }
 }
+
