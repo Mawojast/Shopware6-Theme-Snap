@@ -160,10 +160,22 @@
             "de-DE": "Textfeld"
           }
         },
+        "sectionHeaderSearchbarInputBorder": {
+          "label": {
+            "en-GB": "Input Field Border",
+            "de-DE": "Textfeld Rahmen"
+          }
+        },
         "sectionHeaderSearchbarButton": {
           "label": {
             "en-GB": "Button",
             "de-DE": "Button"
+          }
+        },
+        "sectionHeaderSearchbarButtonBorder": {
+          "label": {
+            "en-GB": "Button Border",
+            "de-DE": "Button Rahmen"
           }
         }
       },
@@ -644,10 +656,45 @@
           "tab": "tabHeader",
           "block": "blockHeaderSearchbar"
         },
+        "tsp-header-searchbar-input-splitted-from-button": {
+          "label": {
+            "de-DE": "Trenne Textfeld vom Button (px)",
+            "en-GB": "Split Input Field from Button (px)"
+          },
+          "type": "number",
+          "value": 0,
+          "custom": {
+              "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": 0
+              },
+              {
+                "value": 2
+              },
+              {
+                "value": 4
+              },
+              {
+                "value": 6
+              },
+              {
+                "value": 8
+              },
+              {
+                "value": 10
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarInput"
+        },
         "tsp-header-searchbar-input-background-color": {
           "label": {
             "en-GB": "Input Background Color",
-            "de-DE": "Textfeld"
+            "de-DE": "Hintergrundfarbe"
           },
           "type": "color",
           "value": "#ffffff",
@@ -680,10 +727,242 @@
           "block": "blockHeaderSearchbar",
           "section": "sectionHeaderSearchbarInput"
         },
+        "tsp-header-show-searchbar-input-border-switch": {
+          "label": {
+            "en-GB": "Show",
+            "de-DE": "Anzeigen"
+          },
+          "type": "switch",
+          "value": 0,
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarInputBorder"
+        },
+        "tsp-header-searchbar-input-border-color": {
+          "label": {
+            "en-GB": "Color",
+            "de-DE": "Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarInputBorder"
+        },
+        "tsp-header-searchbar-input-border-top-left": {
+          "label": {
+            "de-DE": "Rundung Oben Links (px)",
+            "en-GB": "Radius Top Left (px)"
+          },
+          "type": "number",
+          "value": 0,
+          "custom": {
+              "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": 0
+              },
+              {
+                "value": 2
+              },
+              {
+                "value": 4
+              },
+              {
+                "value": 6
+              },
+              {
+                "value": 8
+              },
+              {
+                "value": 10
+              },
+              {
+                "value": 11
+              },
+              {
+                "value": 12
+              },
+              {
+                "value": 13
+              },
+              {
+                "value": 14
+              },
+              {
+                "value": 15
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarInputBorder"
+        },
+        "tsp-header-searchbar-input-border-top-right": {
+          "label": {
+            "de-DE": "Rundung Oben Rechts (px)",
+            "en-GB": "Radius Top Right (px)"
+          },
+          "helpText": {
+            "en-GB": "Only if textfield is splitted from button.",
+            "de-DE": "Nur wenn Textfeld vom Button getrennt ist."
+          },
+          "type": "number",
+          "value": 0,
+          "custom": {
+              "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": 0
+              },
+              {
+                "value": 2
+              },
+              {
+                "value": 4
+              },
+              {
+                "value": 6
+              },
+              {
+                "value": 8
+              },
+              {
+                "value": 10
+              },
+              {
+                "value": 11
+              },
+              {
+                "value": 12
+              },
+              {
+                "value": 13
+              },
+              {
+                "value": 14
+              },
+              {
+                "value": 15
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarInputBorder"
+        },
+        "tsp-header-searchbar-input-border-bottom-left": {
+          "label": {
+            "de-DE": "Rundung Unten Links (px)",
+            "en-GB": "Radius Bottom Left (px)"
+          },
+          "type": "number",
+          "value": 0,
+          "custom": {
+              "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": 0
+              },
+              {
+                "value": 2
+              },
+              {
+                "value": 4
+              },
+              {
+                "value": 6
+              },
+              {
+                "value": 8
+              },
+              {
+                "value": 10
+              },
+              {
+                "value": 11
+              },
+              {
+                "value": 12
+              },
+              {
+                "value": 13
+              },
+              {
+                "value": 14
+              },
+              {
+                "value": 15
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarInputBorder"
+        },
+        "tsp-header-searchbar-input-border-bottom-right": {
+          "label": {
+            "de-DE": "Rundung Unten Rechts (px)",
+            "en-GB": "Radius Bottom Right (px)"
+          },
+          "helpText": {
+            "en-GB": "Only if textfield is splitted from button.",
+            "de-DE": "Nur wenn Textfeld vom Button getrennt ist."
+          },
+          "type": "number",
+          "value": 0,
+          "custom": {
+              "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": 0
+              },
+              {
+                "value": 2
+              },
+              {
+                "value": 4
+              },
+              {
+                "value": 6
+              },
+              {
+                "value": 8
+              },
+              {
+                "value": 10
+              },
+              {
+                "value": 11
+              },
+              {
+                "value": 12
+              },
+              {
+                "value": 13
+              },
+              {
+                "value": 14
+              },
+              {
+                "value": 15
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarInputBorder"
+        },
         "tsp-header-searchbar-button-color": {
           "label": {
-            "en-GB": "Button",
-            "de-DE": "Button"
+            "en-GB": "Background Color",
+            "de-DE": "Hintergrundfarbe"
           },
           "type": "color",
           "value": "#000000",
@@ -704,56 +983,238 @@
           "block": "blockHeaderSearchbar",
           "section": "sectionHeaderSearchbarButton"
         },
-        "tsp-header-searchbar-button-border-radius": {
+        "tsp-header-show-searchbar-button-border-switch": {
           "label": {
-            "en-GB": "Border radius",
-            "de-DE": "Rundung"
+            "en-GB": "Show",
+            "de-DE": "Anzeigen"
           },
-          "type": "text",
-          "value": "0px",
+          "type": "switch",
+          "value": 0,
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarButtonBorder"
+        },
+        "tsp-header-searchbar-button-border-color": {
+          "label": {
+            "en-GB": "Color",
+            "de-DE": "Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarButtonBorder"
+        },
+        "tsp-header-searchbar-button-border-top-left": {
+          "label": {
+            "de-DE": "Rundung Oben Links (px)",
+            "en-GB": "Radius Top Left (px)"
+          },
+          "type": "number",
+          "value": 0,
           "custom": {
-            "componentName": "sw-single-select",
+              "componentName": "sw-single-select",
             "options": [
               {
-                "value": "0px"
+                "value": 0
               },
               {
-                "value": "2px"
+                "value": 2
               },
               {
-                "value": "4px"
+                "value": 4
               },
               {
-                "value": "6px"
+                "value": 6
               },
               {
-                "value": "8px"
+                "value": 8
               },
               {
-                "value": "10px"
+                "value": 10
               },
-              { 
-                "value": "12px"
+              {
+                "value": 11
               },
-              { 
-                "value": "14px"
+              {
+                "value": 12
               },
-              { 
-                "value": "16px"
+              {
+                "value": 13
               },
-              { 
-                "value": "18px"
+              {
+                "value": 14
               },
-              { 
-                "value": "20px"
+              {
+                "value": 15
               }
             ]
           },
           "editable": true,
           "tab": "tabHeader",
           "block": "blockHeaderSearchbar",
-          "section": "sectionHeaderSearchbarButton"
+          "section": "sectionHeaderSearchbarButtonBorder"
+        },
+        "tsp-header-searchbar-button-border-top-right": {
+          "label": {
+            "de-DE": "Rundung Oben Rechts (px)",
+            "en-GB": "Radius Top Right (px)"
+          },
+          "helpText": {
+            "en-GB": "Only if textfield is splitted from button.",
+            "de-DE": "Nur wenn Textfeld vom Button getrennt ist."
+          },
+          "type": "number",
+          "value": 0,
+          "custom": {
+              "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": 0
+              },
+              {
+                "value": 2
+              },
+              {
+                "value": 4
+              },
+              {
+                "value": 6
+              },
+              {
+                "value": 8
+              },
+              {
+                "value": 10
+              },
+              {
+                "value": 11
+              },
+              {
+                "value": 12
+              },
+              {
+                "value": 13
+              },
+              {
+                "value": 14
+              },
+              {
+                "value": 15
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarButtonBorder"
+        },
+        "tsp-header-searchbar-button-border-bottom-left": {
+          "label": {
+            "de-DE": "Rundung Unten Links (px)",
+            "en-GB": "Radius Bottom Left (px)"
+          },
+          "type": "number",
+          "value": 0,
+          "custom": {
+              "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": 0
+              },
+              {
+                "value": 2
+              },
+              {
+                "value": 4
+              },
+              {
+                "value": 6
+              },
+              {
+                "value": 8
+              },
+              {
+                "value": 10
+              },
+              {
+                "value": 11
+              },
+              {
+                "value": 12
+              },
+              {
+                "value": 13
+              },
+              {
+                "value": 14
+              },
+              {
+                "value": 15
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarButtonBorder"
+        },
+        "tsp-header-searchbar-button-border-bottom-right": {
+          "label": {
+            "de-DE": "Rundung Unten Rechts (px)",
+            "en-GB": "Radius Bottom Right (px)"
+          },
+          "helpText": {
+            "en-GB": "Only if textfield is splitted from button.",
+            "de-DE": "Nur wenn Textfeld vom Button getrennt ist."
+          },
+          "type": "number",
+          "value": 0,
+          "custom": {
+              "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": 0
+              },
+              {
+                "value": 2
+              },
+              {
+                "value": 4
+              },
+              {
+                "value": 6
+              },
+              {
+                "value": 8
+              },
+              {
+                "value": 10
+              },
+              {
+                "value": 11
+              },
+              {
+                "value": 12
+              },
+              {
+                "value": 13
+              },
+              {
+                "value": 14
+              },
+              {
+                "value": 15
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderSearchbar",
+          "section": "sectionHeaderSearchbarButtonBorder"
         }
       }
-   }
+  }
 }

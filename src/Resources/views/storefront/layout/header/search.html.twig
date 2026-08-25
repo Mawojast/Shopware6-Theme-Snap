@@ -1,0 +1,13 @@
+{% sw_extends '@Storefront/storefront/layout/header/search.html.twig' %}
+
+{# Added id attribute to search button element #}
+{% block layout_header_search_button %}
+    <button type="submit"
+            id="tsp-header-search-btn"
+            class="btn header-search-btn"
+            aria-label="{{ 'header.searchButton'|trans|striptags }}">
+        <span class="header-search-icon">
+            {% sw_icon 'search' %}
+        </span>
+    </button>
+{% endblock %}

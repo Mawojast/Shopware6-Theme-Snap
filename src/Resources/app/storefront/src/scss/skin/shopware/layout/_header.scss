@@ -1,21 +1,48 @@
+/*
+ * Search form
+ */
+.header-search-form{
+    .btn{
+        
+    }
+}
+#header-main-search-input{
+
+    margin-right: #{$tsp-header-searchbar-input-splitted-from-button}px;
+    @if $tsp-header-show-searchbar-input-border-switch == 0 {
+        border: 0;
+        
+    } @else {
+        border: 1px solid $tsp-header-searchbar-input-border-color;
+        border-top-left-radius: #{$tsp-header-searchbar-input-border-top-left}px;
+        border-top-right-radius: #{$tsp-header-searchbar-input-border-top-right}px;
+        border-bottom-left-radius: #{$tsp-header-searchbar-input-border-bottom-left}px;
+        border-bottom-right-radius: #{$tsp-header-searchbar-input-border-bottom-right}px;
+        
+        @if $tsp-header-searchbar-input-splitted-from-button == 0 {
+            /*border-right: 0;*/
+        }
+    }
+}
+
 /* 
  * Search input field 
  */
 .header-search-input {
-    border-right: 0;
+
+    
     background-color: $tsp-header-searchbar-input-background-color;
     color: $tsp-header-searchbar-input-text-color;
-    /*border-radius: $tsp-header-searchbar-border-radius;*/
+
     &:focus {
         color: $tsp-header-searchbar-input-text-color;
         background-color: $tsp-header-searchbar-input-background-color;
         &,
         ~ .header-search-btn,
         ~ .header-close-btn {
-            border-color: $primary;
+            border-color: $tsp-header-searchbar-button-border-color;
         }
     }
-    
 }
 
 .header-search-input::placeholder{
@@ -25,55 +52,62 @@
 /*
  * Search Button 
  */
-.header-search-btn {
-    background-color: $tsp-header-searchbar-button-color;
-    .header-search-icon {
-        .icon {
+.header-search-form{
 
-            color: $tsp-header-searchbar-button-icon-color;
+    .btn, #tsp-header-search-btn {
+        @if $tsp-header-show-searchbar-button-border-switch == 0 {
+            border: 0;
+        } @else {
+            border: 1px solid $tsp-header-searchbar-button-border-color;
+            border-top-left-radius: #{$tsp-header-searchbar-button-border-top-left}px;
+            border-top-right-radius: #{$tsp-header-searchbar-button-border-top-right}px;
+            border-bottom-left-radius: #{$tsp-header-searchbar-button-border-bottom-left}px;
+            border-bottom-right-radius: #{$tsp-header-searchbar-button-border-bottom-right}px;
+            
+            @if $tsp-header-searchbar-input-splitted-from-button == 0 {
+                /*border-right: 0;*/
+            }
         }
-    }
-
-    &:hover {
         background-color: $tsp-header-searchbar-button-color;
-        .icon {
-            color: $tsp-header-searchbar-button-icon-color;
-        }
-    }
+        .header-search-icon {
+            .icon {
 
-    &.is-loading-indicator-before .loader {
-        margin: 0;
-    }
-    
-    .loader {
-        border-color: $tsp-header-searchbar-button-icon-color;
-        border-right-color: transparent;
-        ~ .header-search-icon{
-            display: none;
+                color: $tsp-header-searchbar-button-icon-color;
+            }
         }
-        ~ .header-close-btn {
-            display: none;
-        }
-    }
 
-    &:disabled, &.disabled {
-        background-color: $tsp-header-searchbar-button-color;
-        border-color: $tsp-header-searchbar-button-color;
-        opacity: 1;
-    }
-}
-
-.header-close-btn {
-    background-color: $tsp-header-searchbar-button-color;
-    .header-close-icon{
-        .icon {
-            color: $tsp-header-searchbar-button-icon-color;
+        &:hover {
+            background-color: $tsp-header-searchbar-button-color;
+            .icon {
+                color: $tsp-header-searchbar-button-icon-color;
+            }
         }
-    }
-    &:hover {
-        background-color: $tsp-header-searchbar-button-color;
-        .icon {
-            color: $tsp-header-searchbar-button-icon-color;
+
+        &.is-loading-indicator-before .loader {
+            margin: 0;
+        }
+
+        .loader {
+            border-color: $tsp-header-searchbar-button-icon-color;
+            border-right-color: transparent;
+            ~ .header-search-icon{
+                display: none;
+            }
+            ~ .header-close-btn {
+                display: none;
+            }
+        }
+
+        &:disabled, &.disabled {
+            background-color: $tsp-header-searchbar-button-color;
+            border-color: $tsp-header-searchbar-button-color;
+            opacity: 1;
+        }
+
+        .header-close-icon{
+            .icon {
+                color: $tsp-header-searchbar-button-icon-color;
+            }
         }
     }
 }
