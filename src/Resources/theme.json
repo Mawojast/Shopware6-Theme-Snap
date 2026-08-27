@@ -74,6 +74,12 @@
             "de-DE": "In den Warenkorb Button"
           }
         },
+        "blockProductBoxDetailsButton": {
+          "label": {
+            "en-GB": "Details Button",
+            "de-DE": "Details Button"
+          }
+        },
         "blockFooterSocialMedia": {
           "label": {
             "en-GB": "Social Media",
@@ -445,6 +451,113 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxAddToShoppingCardButton"
+        },
+        "tsp-product-box-details-button-background-color": {
+          "label": {
+            "en-GB": "Background Color",
+            "de-DE": "Hintergrundfarbe"
+          },
+          "type": "color",
+          "value": "#0042a0",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxDetailsButton",
+          "order": 100
+        },
+        "tsp-product-box-details-button-font-color": {
+          "label": {
+            "en-GB": "Font Color",
+            "de-DE": "Schriftfarbe"
+          },
+          "type": "color",
+          "value": "#ffffff",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxDetailsButton",
+          "order": 100
+        },
+        "tsp-product-box-details-border-radius": {
+          "label": {
+            "en-GB": "Border radius",
+            "de-DE": "Rundung"
+          },
+          "type": "text",
+          "value": "0px",
+          "custom": {
+            "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": "0px"
+              },
+              {
+                "value": "2px"
+              },
+              {
+                "value": "4px"
+              },
+              {
+                "value": "6px"
+              },
+              {
+                "value": "8px"
+              },
+              {
+                "value": "10px"
+              },
+              { 
+                "value": "12px"
+              },
+              { 
+                "value": "14px"
+              },
+              { 
+                "value": "16px"
+              },
+              { 
+                "value": "18px"
+              },
+              { 
+                "value": "20px"
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxDetailsButton"
+        },
+        "tsp-product-box-details-height": {
+          "label": {
+            "de-DE": "Button Höhe",
+            "en-GB": "Button height"
+          },
+          "type": "text",
+          "value": "2.5rem",
+          "custom": {
+              "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": "2.5rem"
+              },
+              {
+                "value": "3.0rem"
+              },
+              {
+                "value": "3.5rem"
+              },
+              {
+                "value": "4.0rem"
+              },
+              {
+                "value": "4.5rem"
+              },
+              {
+                "value": "5.0rem"
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxDetailsButton"
         },
         "tsp-product-box-added-not-to-wishlist-button-color": {
           "label": {

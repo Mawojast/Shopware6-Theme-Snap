@@ -46,6 +46,15 @@
         height: $tsp-product-box-add-to-shopping-card-height;
     }
 
+    // Details Button
+    .btn-detail {
+        align-content: center;
+        background-color: $tsp-product-box-details-button-background-color;
+        color: $tsp-product-box-details-button-font-color;
+        border-radius: $tsp-product-box-details-border-radius;
+        height: $tsp-product-box-details-height;
+    }
+
     // Added to wishlist button color
     .product-wishlist-added {
         background-color: $tsp-product-box-added-to-wishlist-button-color;
