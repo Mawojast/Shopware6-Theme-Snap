@@ -308,6 +308,17 @@
           "tab": "tabProductBox",
           "block": "blockProductBoxDescription"
         },
+        "tsp-product-box-description-color": {
+          "label": {
+            "en-GB": "Color",
+            "de-DE": "Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxDescription"
+        },
         "tsp-product-box-price-color": {
           "label": {
             "en-GB": "Color",

@@ -15,6 +15,11 @@
         color: $tsp-product-box-variants-from-color;
     }
 
+    // Assigns descrption color
+    .product-description {
+        color: $tsp-product-box-description-color;
+    }
+
     // Switch border appereance
     @if $tsp-product-box-border-enabled == 1 {
         // Border color of the product box
