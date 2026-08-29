@@ -3,11 +3,12 @@
  */
 
 .header-main {
+    background-color: $tsp-header-background-color;
+    
     @if $tsp-header-sticky-switch == 1 {
         position: sticky;
         top: 0;
         z-index: 100;
-        background-color: $tsp-header-background-color;
     }
 }
 #header-main-search-input{
