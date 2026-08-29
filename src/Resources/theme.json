@@ -97,6 +97,12 @@
             "en-GB": "Searchbar",
             "de-DE": "Suchbar"
           }
+        },
+        "blockHeaderLayout": {
+          "label": {
+            "en-GB": "Layout",
+            "de-DE": "Layout"
+          }
         }
       },
       "sections": {
@@ -768,6 +774,17 @@
           },
           "tab": "tabFooter",
           "block": "blockFooterSocialMedia"
+        },
+        "tsp-header-sticky-switch": {
+          "label": {
+            "en-GB": "Sticky Header",
+            "de-DE": "Fixierter Kopfzeile"
+          },
+          "type": "switch",
+          "value": 0,
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderLayout"
         },
         "tsp-header-show-searchbar-switch": {
           "label": {
