@@ -786,6 +786,17 @@
           "tab": "tabHeader",
           "block": "blockHeaderLayout"
         },
+        "tsp-header-background-color": {
+          "label": {
+            "en-GB": "Background Color",
+            "de-DE": "Hintergrund"
+          },
+          "type": "color",
+          "value": "#ffffff",
+          "editable": true,
+          "tab": "tabHeader",
+          "block": "blockHeaderLayout"
+        },
         "tsp-header-show-searchbar-switch": {
           "label": {
             "en-GB": "Show",
