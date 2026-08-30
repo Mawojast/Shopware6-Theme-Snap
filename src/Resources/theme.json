@@ -41,6 +41,12 @@
             "en-GB": "Header",
             "de-DE": "Kopfzeile"
           }
+        },
+        "tabProductPage": {
+          "label": {
+            "en-GB": "Product Page",
+            "de-DE": "Produktseite"
+          }
         }
       },
       "blocks": {
@@ -102,6 +108,12 @@
           "label": {
             "en-GB": "Layout",
             "de-DE": "Layout"
+          }
+        },
+        "blockProductPageDetailDescription": {
+          "label": {
+            "en-GB": "Description",
+            "de-DE": "Beschreibung"
           }
         }
       },
@@ -1366,6 +1378,17 @@
           "tab": "tabHeader",
           "block": "blockHeaderSearchbar",
           "section": "sectionHeaderSearchbarButtonBorder"
+        },
+        "tsp-product-page-show-detail-description-title-switch": {
+          "label": {
+            "en-GB": "Show Title",
+            "de-DE": "Titel anzeigen"
+          },
+          "type": "switch",
+          "value": 1,
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageDetailDescription"
         }
       }
   }
