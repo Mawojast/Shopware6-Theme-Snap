@@ -1,5 +1,10 @@
 .product-box {
-
+    .product-wishlist {
+        // Display wishlist button by theme setting
+        @if $tsp-product-box-show-wishlist-button-switch == 0 {
+            display: none;
+        }
+    }
     // Product name color 
     .product-name {
         color: $tsp-product-box-title-color;

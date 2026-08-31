@@ -95,7 +95,7 @@
         "blockProductBoxWishlist": {
           "label": {
             "en-GB": "Wishlist",
-            "de-DE": "Wunschzettel"
+            "de-DE": "Merkzettel"
           }
         },
         "blockHeaderSearchbar": {
@@ -151,13 +151,13 @@
         "sectionProductBoxWishlistAdded": {
           "label": {
             "en-GB": "Added To Wishlist",
-            "de-DE": "Zum Wunschzettel hinzugefügt"
+            "de-DE": "Zum Merkzettel hinzugefügt"
           }
         },
         "sectionProductBoxWishlistNotAdded": {
           "label": {
             "en-GB": "Not Added To Wishlist",
-            "de-DE": "Nicht zum Wunschzettel hinzugefügt"
+            "de-DE": "Nicht zum Merkzettel hinzugefügt"
           }
         },
         "sectionFooterSocialTikTok": {
@@ -587,6 +587,17 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxDetailsButton"
+        },
+        "tsp-product-box-show-wishlist-button-switch": {
+          "label": {
+            "en-GB": "Show Button",
+            "de-DE": "Button anzeigen"
+          },
+          "type": "switch",
+          "value": 0,
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxWishlist"
         },
         "tsp-product-box-added-not-to-wishlist-button-color": {
           "label": {
@@ -1383,6 +1394,17 @@
           "label": {
             "en-GB": "Show Title",
             "de-DE": "Titel anzeigen"
+          },
+          "type": "switch",
+          "value": 1,
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageDetailDescription"
+        },
+        "tsp-product-page-show-wishlist-switch": {
+          "label": {
+            "en-GB": "Show Wishlist",
+            "de-DE": "Merkzettel anzeigen"
           },
           "type": "switch",
           "value": 1,
