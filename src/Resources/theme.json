@@ -1428,6 +1428,17 @@
           "editable": true,
           "tab": "tabProductPage",
           "block": "blockProductPageDetailDescription"
+        },
+        "tsp-product-page-detail-description-text-color": {
+          "label": {
+            "en-GB": "Text Color",
+            "de-DE": "Textfarbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageDetailDescription"
         }
       }
   }
