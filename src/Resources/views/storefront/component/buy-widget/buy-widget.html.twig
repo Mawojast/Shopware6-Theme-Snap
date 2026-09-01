@@ -1,0 +1,12 @@
+{% sw_extends '@Storefront/storefront/component/buy-widget/buy-widget.html.twig' %}
+
+{% block buy_widget_wishlist %}
+    {# Show wishlist button by tsp theme setting #}
+    {% if theme_config('tsp-product-page-show-wishlist-button-switch') %}
+        {% sw_include '@Storefront/storefront/component/product/card/wishlist.html.twig' with {
+            showText: true,
+            size: 'sm',
+            productId: product.id
+        } %}
+    {% endif %}
+{% endblock %}

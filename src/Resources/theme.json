@@ -115,6 +115,12 @@
             "en-GB": "Description",
             "de-DE": "Beschreibung"
           }
+        },
+        "blockProductPageGeneral": {
+          "label": {
+            "en-GB": "General",
+            "de-DE": "Allgemein"
+          }
         }
       },
       "sections": {
@@ -126,7 +132,7 @@
         },
         "sectionProductBoxGeneral": {
           "label": {
-            "en-GB": "Genral",
+            "en-GB": "General",
             "de-DE": "Allgemein"
           }
         },
@@ -1390,21 +1396,21 @@
           "block": "blockHeaderSearchbar",
           "section": "sectionHeaderSearchbarButtonBorder"
         },
+        "tsp-product-page-show-wishlist-button-switch": {
+          "label": {
+            "en-GB": "Show Wishlist Button",
+            "de-DE": "Merkzettel Button anzeigen"
+          },
+          "type": "switch",
+          "value": 0,
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral"
+        },
         "tsp-product-page-show-detail-description-title-switch": {
           "label": {
             "en-GB": "Show Title",
             "de-DE": "Titel anzeigen"
-          },
-          "type": "switch",
-          "value": 1,
-          "editable": true,
-          "tab": "tabProductPage",
-          "block": "blockProductPageDetailDescription"
-        },
-        "tsp-product-page-show-wishlist-switch": {
-          "label": {
-            "en-GB": "Show Wishlist",
-            "de-DE": "Merkzettel anzeigen"
           },
           "type": "switch",
           "value": 1,
