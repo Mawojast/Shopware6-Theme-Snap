@@ -11,4 +11,9 @@ Snap theme styles
 /*
  * Skin
  *--------- */
- @import 'skin/shopware/layout/header';
+@import 'skin/shopware/layout/header';
+
+/*
+ * Page
+ *--------- */
+@import 'page/product-detail/tabs';

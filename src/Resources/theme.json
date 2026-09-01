@@ -1417,6 +1417,17 @@
           "editable": true,
           "tab": "tabProductPage",
           "block": "blockProductPageDetailDescription"
+        },
+        "tsp-product-page-detail-description-title-color": {
+          "label": {
+            "en-GB": "Title Color",
+            "de-DE": "Titlefarbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageDetailDescription"
         }
       }
   }
