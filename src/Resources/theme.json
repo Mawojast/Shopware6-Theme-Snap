@@ -68,6 +68,12 @@
             "de-DE": "Beschreibung"
           }
         },
+        "blockProductBoxGeneral": {
+          "label": {
+            "en-GB": "General",
+            "de-DE": "Allgemein"
+          }
+        },
         "blockProductBoxPrice": {
           "label": {
             "en-GB": "Prices",
@@ -216,6 +222,17 @@
         }
       },
       "fields": {
+        "tsp-product-box-background-color": {
+          "label": {
+            "en-GB": "Background Color",
+            "de-DE": "Hintergrundfarbe"
+          },
+          "type": "color",
+          "value": "#ffffff",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxGeneral"
+        },
         "tsp-product-box-border-enabled": {
           "label": {
             "en-GB": "Show border",
@@ -225,8 +242,7 @@
           "value": true,
           "editable": true,
           "tab": "tabProductBox",
-          "block": "blockProductBoxBorder",
-          "section": "sectionProductBoxGeneral"
+          "block": "blockProductBoxBorder"
         },
         "tsp-product-box-border-color": {
           "label": {
@@ -238,7 +254,6 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxBorder",
-          "section": "sectionProductBoxGeneral",
           "order": 100
         },
         "tsp-product-box-border-hover-enabled": {

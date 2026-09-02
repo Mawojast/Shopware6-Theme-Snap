@@ -1,4 +1,7 @@
 .product-box {
+
+    background-color: $tsp-product-box-background-color;
+
     .product-wishlist {
         // Display wishlist button by theme setting
         @if $tsp-product-box-show-wishlist-button-switch == 0 {
