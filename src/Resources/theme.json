@@ -207,6 +207,12 @@
             "en-GB": "Button Border",
             "de-DE": "Button Rahmen"
           }
+        },
+        "sectionProductPageAddToShoppingCardButton": {
+          "label": {
+            "en-GB": "Add To Shopping Card Button",
+            "de-DE": "In den Warenkorb Button"
+          }
         }
       },
       "fields": {
@@ -1439,6 +1445,104 @@
           "editable": true,
           "tab": "tabProductPage",
           "block": "blockProductPageDetailDescription"
+        },
+        "tsp-product-page-add-to-shopping-card-button-background-color": {
+          "label": {
+            "en-GB": "Background Color",
+            "de-DE": "Hintergrundfarbe"
+          },
+          "type": "color",
+          "value": "#0042a0",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral",
+          "section": "sectionProductPageAddToShoppingCardButton"
+        },
+        "tsp-product-page-add-to-shopping-card-button-text-color": {
+          "label": {
+            "en-GB": "Text Color",
+            "de-DE": "Textfarbe"
+          },
+          "type": "color",
+          "value": "#ffff00",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral",
+          "section": "sectionProductPageAddToShoppingCardButton"
+        },
+        "tsp-product-page-show-add-to-shopping-card-button-border-switch": {
+          "label": {
+            "en-GB": "Show Border",
+            "de-DE": "Rahmen anzeigen"
+          },
+          "type": "switch",
+          "value": 0,
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral",
+          "section": "sectionProductPageAddToShoppingCardButton"
+        },
+        "tsp-product-page-add-to-shopping-card-button-border-color": {
+          "label": {
+            "en-GB": "Border Color",
+            "de-DE": "Rahmenfarbe"
+          },
+          "type": "color",
+          "value": "#ff00ff",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral",
+          "section": "sectionProductPageAddToShoppingCardButton"
+        },
+        "tsp-product-page-add-to-shopping-card-button-border-radius": {
+          "label": {
+            "en-GB": "Border radius",
+            "de-DE": "Rundung"
+          },
+          "type": "text",
+          "value": "0px",
+          "custom": {
+            "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": "0px"
+              },
+              {
+                "value": "2px"
+              },
+              {
+                "value": "4px"
+              },
+              {
+                "value": "6px"
+              },
+              {
+                "value": "8px"
+              },
+              {
+                "value": "10px"
+              },
+              { 
+                "value": "12px"
+              },
+              { 
+                "value": "14px"
+              },
+              { 
+                "value": "16px"
+              },
+              { 
+                "value": "18px"
+              },
+              { 
+                "value": "20px"
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral",
+          "section": "sectionProductPageAddToShoppingCardButton"
         }
       }
   }

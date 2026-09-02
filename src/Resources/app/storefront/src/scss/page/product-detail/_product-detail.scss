@@ -1,0 +1,15 @@
+#productDetailPageBuyProductForm {
+    // Product page add to shopping card submit button 
+    .btn-buy {
+        background-color: $tsp-product-page-add-to-shopping-card-button-background-color;
+        color: $tsp-product-page-add-to-shopping-card-button-text-color;
+        border-radius: $tsp-product-page-add-to-shopping-card-button-border-radius;
+        
+        // show button border switch
+        @if $tsp-product-page-show-add-to-shopping-card-button-border-switch == 0 {
+            border: none;
+        } @else {
+            border-color: $tsp-product-page-add-to-shopping-card-button-border-color;
+        }
+    }
+}
