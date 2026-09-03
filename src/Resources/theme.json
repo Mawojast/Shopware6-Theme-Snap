@@ -219,6 +219,12 @@
             "en-GB": "Add To Shopping Card Button",
             "de-DE": "In den Warenkorb Button"
           }
+        },
+        "sectionProductPageQuantityFieldset": {
+          "label": {
+            "en-GB": "Quantity Fieldset",
+            "de-DE": "Mengenauswahl"
+          }
         }
       },
       "fields": {
@@ -1558,6 +1564,54 @@
           "tab": "tabProductPage",
           "block": "blockProductPageGeneral",
           "section": "sectionProductPageAddToShoppingCardButton"
+        },
+        "tsp-product-page-quantity-plus-minus-background-color": {
+          "label": {
+            "en-GB": "Plus-Minus Background Color",
+            "de-DE": "Plus-Minus Hintergrundfarbe"
+          },
+          "type": "color",
+          "value": "#ffffff",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral",
+          "section": "sectionProductPageQuantityFieldset"
+        },
+        "tsp-product-page-quantity-plus-minus-color": {
+          "label": {
+            "en-GB": "Plus-Minus Color",
+            "de-DE": "Plus-Minus Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral",
+          "section": "sectionProductPageQuantityFieldset"
+        },
+        "tsp-product-page-quantity-background-color": {
+          "label": {
+            "en-GB": "Quantity Background Color",
+            "de-DE": "Mengenanzahl Hintergrundfarbe"
+          },
+          "type": "color",
+          "value": "#ffffff",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral",
+          "section": "sectionProductPageQuantityFieldset"
+        },
+        "tsp-product-page-quantity-color": {
+          "label": {
+            "en-GB": "Quantity Color",
+            "de-DE": "Mengenanzahl Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral",
+          "section": "sectionProductPageQuantityFieldset"
         }
       }
   }

@@ -12,4 +12,19 @@
             border-color: $tsp-product-page-add-to-shopping-card-button-border-color;
         }
     }
+
+    .buy-widget-container {
+        fieldset {
+            .product-detail-quantity-group {
+                background-color: $tsp-product-page-quantity-plus-minus-background-color;
+                .icon-minus, .icon-plus {
+                    color: $tsp-product-page-quantity-plus-minus-color;
+                }
+                .quantity-selector-group-input {
+                    background-color: $tsp-product-page-quantity-background-color;
+                    color: $tsp-product-page-quantity-color;
+                }
+            }
+        }
+    }
 }
