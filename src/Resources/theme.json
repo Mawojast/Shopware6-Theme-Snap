@@ -1434,6 +1434,17 @@
           "tab": "tabProductPage",
           "block": "blockProductPageGeneral"
         },
+        "tsp-product-page-product-name-color": {
+          "label": {
+            "en-GB": "Product Name",
+            "de-DE": "Produktname"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral"
+        },
         "tsp-product-page-show-detail-description-title-switch": {
           "label": {
             "en-GB": "Show Title",
