@@ -1484,6 +1484,17 @@
           "tab": "tabProductPage",
           "block": "blockProductPageDetailDescription"
         },
+        "tsp-product-page-detail-property-text-color": {
+          "label": {
+            "en-GB": "Color Of Product Properties",
+            "de-DE": "Farbe der Produkteigenschaften"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageDetailDescription"
+        },
         "tsp-product-page-add-to-shopping-card-button-background-color": {
           "label": {
             "en-GB": "Background Color",

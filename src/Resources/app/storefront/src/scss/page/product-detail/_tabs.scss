@@ -7,3 +7,14 @@
     margin-bottom: $spacer-lg;
     color: $tsp-product-page-detail-description-text-color;
 }
+
+.product-detail-properties-table {
+    .properties-row{
+        .properties-label{
+            color: $tsp-product-page-detail-property-text-color; 
+        }
+        .properties-value {
+            color: $tsp-product-page-detail-property-text-color;
+        }
+    }
+}
