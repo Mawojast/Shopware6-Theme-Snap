@@ -10,3 +10,26 @@
         } %}
     {% endif %}
 {% endblock %}
+
+{% block buy_widget_ordernumber_container %}
+    {% if theme_config('tsp-product-page-show-product-number-switch') %}
+        {% if product.productNumber %}
+            <div class="product-detail-ordernumber-container">
+                {% block buy_widget_ordernumber_label %}
+                    <span class="product-detail-ordernumber-label">
+                        {{ 'detail.productNumberLabel'|trans|sw_sanitize }}
+                    </span>
+                {% endblock %}
+
+                {% block buy_widget_ordernumber %}
+                    <meta itemprop="productID"
+                            content="{{ product.id }}">
+                    <span class="product-detail-ordernumber"
+                            itemprop="sku">
+                        {{ product.productNumber }}
+                    </span>
+                {% endblock %}
+            </div>
+        {% endif %}
+    {% endif %}
+{% endblock %}

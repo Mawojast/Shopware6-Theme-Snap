@@ -225,6 +225,12 @@
             "en-GB": "Quantity Fieldset",
             "de-DE": "Mengenauswahl"
           }
+        },
+        "sectionProductPageProductNumber": {
+          "label": {
+            "en-GB": "Product Number",
+            "de-DE": "Produktnummer"
+          }
         }
       },
       "fields": {
@@ -1623,6 +1629,30 @@
           "tab": "tabProductPage",
           "block": "blockProductPageGeneral",
           "section": "sectionProductPageQuantityFieldset"
+        },
+        "tsp-product-page-show-product-number-switch": {
+          "label": {
+            "en-GB": "Show Product Number",
+            "de-DE": "Produktnummer"
+          },
+          "type": "switch",
+          "value": 1,
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral",
+          "section": "sectionProductPageProductNumber"
+        },
+        "tsp-product-page-product-number-color": {
+          "label": {
+            "en-GB": "Color",
+            "de-DE": "Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabProductPage",
+          "block": "blockProductPageGeneral",
+          "section": "sectionProductPageProductNumber"
         }
       }
   }
