@@ -98,3 +98,22 @@
         }
     }
 }
+
+// Product badges in listing page for product boxes
+.product-badges {
+
+    .badge-topseller {
+        background-color: $tsp-product-box-badge-top-seller-background-color;
+        color: $tsp-product-box-badge-top-seller-text-color;
+    }
+
+    .badge-new {
+        background-color: $tsp-product-box-badge-new-background-color;
+        color: $tsp-product-box-badge-new-text-color;
+    }
+
+    .badge-discount {
+        background-color: $tsp-product-box-badge-discount-background-color;
+        color: $tsp-product-box-badge-discount-text-color;
+    }
+}

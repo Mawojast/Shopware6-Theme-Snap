@@ -80,6 +80,12 @@
             "de-DE": "Preise"
           }
         },
+        "blockProductBoxBadges": {
+          "label": {
+            "en-GB": "Badges",
+            "de-DE": "Abzeichen"
+          }
+        },
         "blockProductBoxAddToShoppingCardButton": {
           "label": {
             "en-GB": "Add To Shopping Card Button",
@@ -152,6 +158,24 @@
           "label": {
             "en-GB": "More",
             "de-DE": "Sonstiges"
+          }
+        },
+        "sectionProductBoxBadgeNew": {
+          "label": {
+            "en-GB": "New",
+            "de-DE": "Neu"
+          }
+        },
+        "sectionProductBoxBadgeDiscount": {
+          "label": {
+            "en-GB": "Discount",
+            "de-DE": "Rabatt"
+          }
+        },
+        "sectionProductBoxBadgeTopSeller": {
+          "label": {
+            "en-GB": "Top Seller",
+            "de-DE": "Tipp"
           }
         },
         "sectionProductBoxVariantsFrom": {
@@ -375,6 +399,78 @@
           "editable": true,
           "tab": "tabProductBox",
           "block": "blockProductBoxDescription"
+        },
+        "tsp-product-box-badge-new-text-color": {
+          "label": {
+            "en-GB": "Text",
+            "de-DE": "Text"
+          },
+          "type": "color",
+          "value": "#ff0000",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxBadges",
+          "section": "sectionProductBoxBadgeNew"
+        },
+        "tsp-product-box-badge-new-background-color": {
+          "label": {
+            "en-GB": "Background",
+            "de-DE": "Hintergrund"
+          },
+          "type": "color",
+          "value": "#000ff0",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxBadges",
+          "section": "sectionProductBoxBadgeNew"
+        },
+        "tsp-product-box-badge-discount-text-color": {
+          "label": {
+            "en-GB": "Text",
+            "de-DE": "Text"
+          },
+          "type": "color",
+          "value": "#ff0000",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxBadges",
+          "section": "sectionProductBoxBadgeDiscount"
+        },
+        "tsp-product-box-badge-discount-background-color": {
+          "label": {
+            "en-GB": "Background",
+            "de-DE": "Hintergrund"
+          },
+          "type": "color",
+          "value": "#000ff0",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxBadges",
+          "section": "sectionProductBoxBadgeDiscount"
+        },
+        "tsp-product-box-badge-top-seller-text-color": {
+          "label": {
+            "en-GB": "Text",
+            "de-DE": "Text"
+          },
+          "type": "color",
+          "value": "#ff0000",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxBadges",
+          "section": "sectionProductBoxBadgeTopSeller"
+        },
+        "tsp-product-box-badge-top-seller-background-color": {
+          "label": {
+            "en-GB": "Background",
+            "de-DE": "Hintergrund"
+          },
+          "type": "color",
+          "value": "#000ff0",
+          "editable": true,
+          "tab": "tabProductBox",
+          "block": "blockProductBoxBadges",
+          "section": "sectionProductBoxBadgeTopSeller"
         },
         "tsp-product-box-price-color": {
           "label": {
