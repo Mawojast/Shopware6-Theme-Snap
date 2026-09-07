@@ -1775,8 +1775,19 @@
         },
         "tsp-listing-page-sorting-button-background-color": {
           "label": {
-            "en-GB": "Color",
-            "de-DE": "Farbe"
+            "en-GB": "Background Color",
+            "de-DE": "Hintergrund"
+          },
+          "type": "color",
+          "value": "#ffffff",
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageSorting"
+        },
+        "tsp-listing-page-sorting-button-color": {
+          "label": {
+            "en-GB": "Text Color",
+            "de-DE": "Text"
           },
           "type": "color",
           "value": "#000000",
