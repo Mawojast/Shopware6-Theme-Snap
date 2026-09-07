@@ -47,6 +47,12 @@
             "en-GB": "Product Page",
             "de-DE": "Produktseite"
           }
+        },
+        "tabListingPage": {
+          "label": {
+            "en-GB": "Listing Page",
+            "de-DE": "Übersichtsseite"
+          }
         }
       },
       "blocks": {
@@ -132,6 +138,12 @@
           "label": {
             "en-GB": "General",
             "de-DE": "Allgemein"
+          }
+        },
+        "blockListingPageSorting": {
+          "label": {
+            "en-GB": "Sorting Select Button",
+            "de-DE": "Sortierung Auswahl Button"
           }
         }
       },
@@ -1760,6 +1772,17 @@
           "tab": "tabProductPage",
           "block": "blockProductPageGeneral",
           "section": "sectionProductPageProductNumber"
+        },
+        "tsp-listing-page-sorting-button-background-color": {
+          "label": {
+            "en-GB": "Color",
+            "de-DE": "Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageSorting"
         }
       }
   }

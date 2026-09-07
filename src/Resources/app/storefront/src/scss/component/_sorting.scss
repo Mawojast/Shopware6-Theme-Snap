@@ -1,0 +1,6 @@
+// Configurable sorting select button in listing page
+.sorting[data-listing-sorting] {
+    .form-select {
+        background-color: $tsp-listing-page-sorting-button-background-color;
+    }
+}
