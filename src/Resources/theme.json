@@ -1794,6 +1794,66 @@
           "editable": true,
           "tab": "tabListingPage",
           "block": "blockListingPageSorting"
+        },
+        "tsp-listing-page-sorting-button-border-color": {
+          "label": {
+            "en-GB": "Border Color",
+            "de-DE": "Rahmen"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageSorting"
+        },
+        "tsp-listing-page-sorting-button-border-card-radius": {
+          "label": {
+            "en-GB": "Border radius",
+            "de-DE": "Rundung"
+          },
+          "type": "text",
+          "value": "0px",
+          "custom": {
+            "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": "0px"
+              },
+              {
+                "value": "2px"
+              },
+              {
+                "value": "4px"
+              },
+              {
+                "value": "6px"
+              },
+              {
+                "value": "8px"
+              },
+              {
+                "value": "10px"
+              },
+              { 
+                "value": "12px"
+              },
+              { 
+                "value": "14px"
+              },
+              { 
+                "value": "16px"
+              },
+              { 
+                "value": "18px"
+              },
+              { 
+                "value": "20px"
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageSorting"
         }
       }
   }
