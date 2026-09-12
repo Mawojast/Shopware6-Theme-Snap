@@ -1,0 +1,25 @@
+.pagination {
+    margin-bottom: 0;
+
+    .page-link:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .page-link {
+        border-radius: $tsp-listing-page-pagination-border-radius;
+        color: $tsp-listing-page-pagination-text-color;
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+    
+    .page-item.active .page-link {
+        background-color: $tsp-listing-page-pagination-active-page-background-color;
+        color: $tsp-listing-page-pagination-active-page-text-color;
+    }
+
+    .page-item:not(.disabled) {
+        .page-link:hover {
+            background-color: $tsp-listing-page-pagination-hover-background-color;
+        }
+    }
+}
