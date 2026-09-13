@@ -1807,6 +1807,17 @@
           "tab": "tabListingPage",
           "block": "blockListingPageSorting"
         },
+        "tsp-listing-page-show-sorting-button-border-switch": {
+          "label": {
+            "en-GB": "Show Border",
+            "de-DE": "Rahmen anzeigen"
+          },
+          "type": "switch",
+          "value": 0,
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageSorting"
+        },
         "tsp-listing-page-sorting-button-border-color": {
           "label": {
             "en-GB": "Border Color",

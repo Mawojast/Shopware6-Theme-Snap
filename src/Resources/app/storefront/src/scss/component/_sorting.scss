@@ -4,6 +4,8 @@
         background-color: $tsp-listing-page-sorting-button-background-color;
         color: $tsp-listing-page-sorting-button-color;
         border-radius: $tsp-listing-page-sorting-button-border-card-radius;
-        border-color: $tsp-listing-page-sorting-button-border-color;
+        @if $tsp-listing-page-show-sorting-button-border-switch == 0 {
+            border: none;
+        }
     }
 }
