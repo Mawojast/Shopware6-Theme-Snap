@@ -108,17 +108,24 @@
 }
 
 .filter-active {
+    --#{$prefix}btn-color: #{$tsp-listing-page-selected-filter-item-text-color};
+    --#{$prefix}btn-bg: #{$tsp-listing-page-selected-filter-item-background-color};  
     --#{$prefix}btn-focus-box-shadow: #{$input-btn-focus-box-shadow};
-    --#{$prefix}btn-border-color: #{$input-border-color};
-    --#{$prefix}btn-hover-border-color: #{$primary};
-    --#{$prefix}btn-hover-color: #{$primary};
-    --#{$prefix}btn-hover-bg: #{$gray-100};
+    --#{$prefix}btn-hover-color: #{$tsp-listing-page-hover-selected-filter-item-text-color};
+    --#{$prefix}btn-hover-bg: #{$tsp-listing-page-hover-selected-filter-item-background-color};
     --#{$prefix}btn-active-border-color: #{$primary};
     --#{$prefix}btn-active-color: #{$primary};
     --#{$prefix}btn-font-weight: #{$font-weight-normal};
-    --#{$prefix}btn-border-radius: #{$border-radius-pill};
+    --#{$prefix}btn-border-radius: #{$tsp-listing-page-selected-filter-item-border-radius};
     --#{$prefix}btn-padding-y: 0.125rem;
     --#{$prefix}btn-line-height: 1.625rem;
+    
+    @if $tsp-listing-page-show-selected-filter-item-border-switch == 0 {
+        border: none;
+    } @else {
+        --#{$prefix}btn-border-color: #{$tsp-listing-page-selected-filter-item-border-color};
+        --#{$prefix}btn-hover-border-color: #{$tsp-listing-page-hover-selected-filter-item-border-color};
+    }
 }
 
 .filter-active-preview {
@@ -150,6 +157,7 @@
         min-width: 100%;
         border: 1px solid $primary;
         border-top: 0;
+        border-color: $tsp-listing-page-focus-filter-item-border-color;
         @if $tsp-listing-page-show-filter-item-border-switch == 0 {
             border: none;
         } 
@@ -204,7 +212,7 @@
 .btn.filter-panel-wrapper-toggle {
     --#{$prefix}btn-padding-x: 6px;
     --#{$prefix}btn-padding-y: 6px;
-    --#{$prefix}btn-hover-bg: red;
+    --#{$prefix}btn-hover-bg: var(--#{$prefix}gray-200);
     --#{$prefix}btn-hover-color: var(--#{$prefix}primary);
     --#{$prefix}btn-active-bg: var(--#{$prefix}gray-200);
     --#{$prefix}btn-active-color: var(--#{$prefix}primary);

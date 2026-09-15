@@ -291,6 +291,19 @@
             "en-GB": "Filter Items",
             "de-DE": "Filterelemente"
           }
+          
+        },
+        "sectionListingPageSelectedFilterItems": {
+          "label": {
+            "en-GB": "Selected Filter Items",
+            "de-DE": "Ausgewählte Filterelemente"
+          }
+        },
+        "sectionListingPageHoverSelectedFilterItems": {
+          "label": {
+            "en-GB": "Hover Selected Filter Items",
+            "de-DE": "Hover Ausgewählte Filterelemente"
+          }
         }
       },
       "fields": {
@@ -2106,6 +2119,140 @@
           "tab": "tabListingPage",
           "block": "blockListingPageFilter",
           "section": "sectionListingPageFilterItems"
+        },
+        "tsp-listing-page-selected-filter-item-text-color": {
+          "label": {
+            "en-GB": "Text",
+            "de-DE": "Text"
+          },
+          "type": "color",
+          "value": "#00ff00",
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageFilter",
+          "section": "sectionListingPageSelectedFilterItems"
+        },
+        "tsp-listing-page-selected-filter-item-background-color": {
+          "label": {
+            "en-GB": "Background",
+            "de-DE": "Hintergrund"
+          },
+          "type": "color",
+          "value": "#ffff0f",
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageFilter",
+          "section": "sectionListingPageSelectedFilterItems"
+        },
+        "tsp-listing-page-show-selected-filter-item-border-switch": {
+          "label": {
+            "en-GB": "Show Border",
+            "de-DE": "Rahmen anzeigen"
+          },
+          "type": "switch",
+          "value": 0,
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageFilter",
+          "section": "sectionListingPageSelectedFilterItems"
+        },
+        "tsp-listing-page-selected-filter-item-border-color": {
+          "label": {
+            "en-GB": "Border",
+            "de-DE": "Rahmen"
+          },
+          "type": "color",
+          "value": "#fafc0f",
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageFilter",
+          "section": "sectionListingPageSelectedFilterItems"
+        },
+        "tsp-listing-page-selected-filter-item-border-radius": {
+          "label": {
+            "en-GB": "Border radius",
+            "de-DE": "Rundung"
+          },
+          "type": "text",
+          "value": "0px",
+          "custom": {
+            "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": "0px"
+              },
+              {
+                "value": "2px"
+              },
+              {
+                "value": "4px"
+              },
+              {
+                "value": "6px"
+              },
+              {
+                "value": "8px"
+              },
+              {
+                "value": "10px"
+              },
+              { 
+                "value": "12px"
+              },
+              { 
+                "value": "14px"
+              },
+              { 
+                "value": "16px"
+              },
+              { 
+                "value": "18px"
+              },
+              { 
+                "value": "20px"
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageFilter",
+          "section": "sectionListingPageSelectedFilterItems"
+        },
+        "tsp-listing-page-hover-selected-filter-item-text-color": {
+          "label": {
+            "en-GB": "Text",
+            "de-DE": "Text"
+          },
+          "type": "color",
+          "value": "#00ff00",
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageFilter",
+          "section": "sectionListingPageHoverSelectedFilterItems"
+        },
+        "tsp-listing-page-hover-selected-filter-item-background-color": {
+          "label": {
+            "en-GB": "Background",
+            "de-DE": "Hintergrund"
+          },
+          "type": "color",
+          "value": "#ffff0f",
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageFilter",
+          "section": "sectionListingPageHoverSelectedFilterItems"
+        },
+        "tsp-listing-page-hover-selected-filter-item-border-color": {
+          "label": {
+            "en-GB": "Border",
+            "de-DE": "Rahmen"
+          },
+          "type": "color",
+          "value": "#fafc0f",
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageFilter",
+          "section": "sectionListingPageHoverSelectedFilterItems"
         }
       }
   }
