@@ -2009,6 +2009,30 @@
           "block": "blockListingPageFilter",
           "section": "sectionListingPageFilterItems"
         },
+        "tsp-listing-page-focus-filter-item-title-color": {
+          "label": {
+            "en-GB": "Title of focused filter elements",
+            "de-DE": "Titel der fokusierten Filter-Elementen"
+          },
+          "type": "color",
+          "value": "#adff2f",
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageFilter",
+          "section": "sectionListingPageFilterItems"
+        },
+        "tsp-listing-page-focus-filter-item-border-color": {
+          "label": {
+            "en-GB": "Border of focused filter elements",
+            "de-DE": "Rahmen der fokusierten Filter-Elementen"
+          },
+          "type": "color",
+          "value": "#adff2f",
+          "editable": true,
+          "tab": "tabListingPage",
+          "block": "blockListingPageFilter",
+          "section": "sectionListingPageFilterItems"
+        },
         "tsp-listing-page-show-filter-item-border-switch": {
           "label": {
             "en-GB": "Show Border",

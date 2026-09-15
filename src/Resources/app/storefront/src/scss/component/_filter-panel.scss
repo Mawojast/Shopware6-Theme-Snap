@@ -40,8 +40,16 @@
         color: $tsp-listing-page-filter-item-text-color;
         border-radius: $tsp-listing-page-filter-item-border-radius;
     }
+    &:hover {
+        color: $tsp-listing-page-focus-filter-item-title-color;
+        border-color: $tsp-listing-page-focus-filter-item-border-color;
+    }
     .filter-boolean-label {
         color: $tsp-listing-page-filter-item-text-color;
+        &:hover {
+        color: $tsp-listing-page-focus-filter-item-title-color;
+        border-color: $tsp-listing-page-focus-filter-item-border-color;
+    }
     }
     margin-right: 12px;
     margin-bottom: 12px;
@@ -49,14 +57,26 @@
     .filter-panel-item-toggle {
         --#{$prefix}btn-focus-box-shadow: #{$input-btn-focus-box-shadow};
         --#{$prefix}btn-border-color: #{$input-border-color};
-        --#{$prefix}btn-hover-border-color: #{$input-border-color};
+        --#{$prefix}btn-hover-border-color: $tsp-listing-page-focus-filter-item-border-color;
         --#{$prefix}btn-active-border-color: #{$primary};
-        --#{$prefix}btn-active-color: #{$primary};
+        --#{$prefix}btn-active-color: $tsp-listing-page-focus-filter-item-title-color;
         --#{$prefix}btn-font-weight: #{$font-weight-normal};
     }
 }
 
+.filter-multi-select {
+    .filter-multi-select-item-label {
+        &:active {
+            color: $tsp-listing-page-focus-filter-item-title-color;
+            border-color: $tsp-listing-page-focus-filter-item-title-color;
+        }
+    }
+}
+
+
 .filter-panel-item-toggle.show {
+    color: $tsp-listing-page-focus-filter-item-title-color;
+    border-color: $tsp-listing-page-focus-filter-item-border-color;
     .icon-filter-panel-item-toggle svg {
         color: $primary;
         transform: rotate(180deg);
@@ -140,6 +160,7 @@
     .filter-panel-item {
         margin-right: 0;
         width: 100%;
+        
     }
 
     .filter-panel-item-toggle {
@@ -147,8 +168,8 @@
         display: flex;
 
         &[aria-expanded='true'] {
-            color: $primary;
-            border-color: $primary;
+            color: $tsp-listing-page-focus-filter-item-title-color;
+            border-color: $tsp-listing-page-focus-filter-item-border-color;
             border-bottom-left-radius: 0;
             border-bottom-right-radius: 0;
             border-bottom: 0 none;
