@@ -53,6 +53,12 @@
             "en-GB": "Listing Page",
             "de-DE": "Übersichtsseite"
           }
+        },
+        "tabNavigation": {
+          "label": {
+            "en-GB": "Navigation",
+            "de-DE": "Navigation"
+          }
         }
       },
       "blocks": {
@@ -156,6 +162,12 @@
           "label": {
             "en-GB": "Filter",
             "de-DE": "Filter"
+          }
+        },
+        "blockNavigationMain": {
+          "label": {
+            "en-GB": "Main Navigation",
+            "de-DE": "Kopfzeile Hauptnavigation"
           }
         }
       },
@@ -2253,6 +2265,17 @@
           "tab": "tabListingPage",
           "block": "blockListingPageFilter",
           "section": "sectionListingPageHoverSelectedFilterItems"
+        },
+        "tsp-navigation-nain-text-color": {
+          "label": {
+            "en-GB": "Text",
+            "de-DE": "Text"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabNavigation",
+          "block": "blockNavigationMain"
         }
       }
   }
