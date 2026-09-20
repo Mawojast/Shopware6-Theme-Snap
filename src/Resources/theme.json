@@ -169,6 +169,12 @@
             "en-GB": "Main Navigation",
             "de-DE": "Kopfzeile Hauptnavigation"
           }
+        },
+        "blockNavigationFlyout": {
+          "label": {
+            "en-GB": "Navigation Flyout",
+            "de-DE": "Kopfzeile Navigation Flyout"
+          }
         }
       },
       "sections": {
@@ -2266,7 +2272,7 @@
           "block": "blockListingPageFilter",
           "section": "sectionListingPageHoverSelectedFilterItems"
         },
-        "tsp-navigation-nain-text-color": {
+        "tsp-navigation-main-text-color": {
           "label": {
             "en-GB": "Text",
             "de-DE": "Text"
@@ -2276,6 +2282,39 @@
           "editable": true,
           "tab": "tabNavigation",
           "block": "blockNavigationMain"
+        },
+        "tsp-navigation-flyout-category-link-color": {
+          "label": {
+            "en-GB": "Category Link Color",
+            "de-DE": "Kategorie Link Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabNavigation",
+          "block": "blockNavigationFlyout"
+        },
+        "tsp-navigation-flyout-sub-category-link-color": {
+          "label": {
+            "en-GB": "Subcategory Link Color",
+            "de-DE": "Unerkategorie Link Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabNavigation",
+          "block": "blockNavigationFlyout"
+        },
+        "tsp-navigation-flyout-hover-sub-category-link-color": {
+          "label": {
+            "en-GB": "Subcategory Link Color",
+            "de-DE": "Unerkategorie Link Farbe"
+          },
+          "type": "color",
+          "value": "#000000",
+          "editable": true,
+          "tab": "tabNavigation",
+          "block": "blockNavigationFlyout"
         }
       }
   }
