@@ -52,8 +52,8 @@ Custom skin styling for navigation flyout which opens on hover over the main nav
         padding-left: 5px;
     }
 
-    &.active {
-        color: $primary;
+    &.active.nav-link {
+        color: $tsp-navigation-flyout-aktive-category-text-color;
         font-weight: $font-weight-bold;
     }
 }
@@ -65,8 +65,8 @@ Custom skin styling for navigation flyout which opens on hover over the main nav
 
 .navigation-flyout-category-link {
     a {
-        color: $tsp-navigation-flyout-category-link-color;
-        text-decoration:none;
+        color: $tsp-navigation-flyout-sub-category-link-color;
+        text-decoration: none;
         
     }
     

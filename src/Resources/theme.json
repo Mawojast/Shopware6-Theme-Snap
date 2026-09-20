@@ -2283,21 +2283,21 @@
           "tab": "tabNavigation",
           "block": "blockNavigationMain"
         },
-        "tsp-navigation-flyout-category-link-color": {
+        "tsp-navigation-main-aktive-category-text-color": {
           "label": {
-            "en-GB": "Category Link Color",
-            "de-DE": "Kategorie Link Farbe"
+            "en-GB": "Aktive Category Text",
+            "de-DE": "Aktive Kategorie Text"
           },
           "type": "color",
-          "value": "#000000",
+          "value": "#0ff000",
           "editable": true,
           "tab": "tabNavigation",
-          "block": "blockNavigationFlyout"
+          "block": "blockNavigationMain"
         },
         "tsp-navigation-flyout-sub-category-link-color": {
           "label": {
-            "en-GB": "Subcategory Link Color",
-            "de-DE": "Unerkategorie Link Farbe"
+            "en-GB": "Subcategories Link Color",
+            "de-DE": "Unerkategorien Link Farbe"
           },
           "type": "color",
           "value": "#000000",
@@ -2307,11 +2307,22 @@
         },
         "tsp-navigation-flyout-hover-sub-category-link-color": {
           "label": {
-            "en-GB": "Subcategory Link Color",
-            "de-DE": "Unerkategorie Link Farbe"
+            "en-GB": "Hover Subcategories Link Color",
+            "de-DE": "Hover Unerkategorien Link Farbe"
           },
           "type": "color",
           "value": "#000000",
+          "editable": true,
+          "tab": "tabNavigation",
+          "block": "blockNavigationFlyout"
+        },
+        "tsp-navigation-flyout-aktive-category-text-color": {
+          "label": {
+            "en-GB": "Aktive Subategories Text",
+            "de-DE": "Aktive Unterkategorien Text"
+          },
+          "type": "color",
+          "value": "#0ff000",
           "editable": true,
           "tab": "tabNavigation",
           "block": "blockNavigationFlyout"
