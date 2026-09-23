@@ -30,6 +30,11 @@ Custom skin styling for navigation flyout which opens on hover over the main nav
         }
     }
 }
+.nav-item {
+    .dropdown-menu{
+        background-color: $tsp-navigation-flyout-background-color;
+    }
+}
 
 .navigation-flyout-link {
     @include transition(padding 0.25s cubic-bezier(0, 0.77, 0.33, 1));

@@ -2326,6 +2326,17 @@
           "editable": true,
           "tab": "tabNavigation",
           "block": "blockNavigationFlyout"
+        },
+        "tsp-navigation-flyout-background-color": {
+          "label": {
+            "en-GB": "Background",
+            "de-DE": "Hintergrund"
+          },
+          "type": "color",
+          "value": "#f2f2f2",
+          "editable": true,
+          "tab": "tabNavigation",
+          "block": "blockNavigationFlyout"
         }
       }
   }
