@@ -33,6 +33,11 @@ Custom skin styling for navigation flyout which opens on hover over the main nav
 .nav-item {
     .dropdown-menu{
         background-color: $tsp-navigation-flyout-background-color;
+        border-color: $tsp-navigation-flyout-border-color;
+        @if $tsp-navigation-flyout-show-border-switch == 0 {
+            border: 0;
+        }
+        border-radius: $tsp-navigation-flyout-border-radius;
     }
 }
 

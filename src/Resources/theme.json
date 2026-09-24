@@ -2337,6 +2337,77 @@
           "editable": true,
           "tab": "tabNavigation",
           "block": "blockNavigationFlyout"
+        },
+        "tsp-navigation-flyout-show-border-switch": {
+          "label": {
+            "en-GB": "Show Border",
+            "de-DE": "Rahmen anzeigen"
+          },
+          "type": "switch",
+          "value": 0,
+          "editable": true,
+          "tab": "tabNavigation",
+          "block": "blockNavigationFlyout"
+        },
+        "tsp-navigation-flyout-border-color": {
+          "label": {
+            "en-GB": "Border",
+            "de-DE": "Rahmen"
+          },
+          "type": "color",
+          "value": "#cfcfb9",
+          "editable": true,
+          "tab": "tabNavigation",
+          "block": "blockNavigationFlyout"
+        },
+        "tsp-navigation-flyout-border-radius": {
+          "label": {
+            "en-GB": "Border radius",
+            "de-DE": "Rundung"
+          },
+          "type": "text",
+          "value": "10px",
+          "custom": {
+            "componentName": "sw-single-select",
+            "options": [
+              {
+                "value": "0px"
+              },
+              {
+                "value": "2px"
+              },
+              {
+                "value": "4px"
+              },
+              {
+                "value": "6px"
+              },
+              {
+                "value": "8px"
+              },
+              {
+                "value": "10px"
+              },
+              { 
+                "value": "12px"
+              },
+              { 
+                "value": "14px"
+              },
+              { 
+                "value": "16px"
+              },
+              { 
+                "value": "18px"
+              },
+              { 
+                "value": "20px"
+              }
+            ]
+          },
+          "editable": true,
+          "tab": "tabNavigation",
+          "block": "blockNavigationFlyout"
         }
       }
   }
