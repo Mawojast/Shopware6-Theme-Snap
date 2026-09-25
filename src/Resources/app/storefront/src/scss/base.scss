@@ -4,6 +4,12 @@ Snap theme styles
 */
 
 /*
+ * Layout
+ * ---------- */
+@import 'layout/header';
+
+
+/*
  * Components
  * ---------- */
 @import 'component/card';
@@ -15,7 +21,6 @@ Snap theme styles
 /*
  * Skin
  *--------- */
-@import 'skin/shopware/layout/header';
 @import 'skin/shopware/layout/main-navigation';
 @import 'skin/shopware/layout/navigation-flyout';
 
